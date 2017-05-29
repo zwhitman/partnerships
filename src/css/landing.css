@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    src: local('Open Sans'), local('Open Sans'), url(../fonts/Open_Sans/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans';
+    font-style: italic;
+    src: local('Open Sans'), local('Open Sans'), url(../fonts/Open_Sans/OpenSans-LightItalic.ttf) format('truetype');
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+.content {
+  margin-bottom:30px;
+}
+
+.italic {
+  font-family: Open Sans, italic;
+}
+
+h3 {
+  color: #999;
+}
+
+h4 {
+  /*color: blue;*/
+  color: #5e9516
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+}
+
+h1 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+h1:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+h1:before {
+  left: 0;
+}
+
+footer > div > a {
+  color: white;
+}
+
+video#bgvid {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
+}
+
+.btn-cta{
+  font-size: 2em;
+  background: #1279bc;
+  opacity: .9;
+  border: none;
+  color: white;
+  padding:20px 50px ;
+  margin-top:30px;
+	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
+		transition: background .4s;
+  /*width: 300px;*/
+  /*height: 70px;*/
+}
+
+.btn-cta:hover {
+  color: #1279bc;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > li > a {
+	text-transform: uppercase;
+}
+
+#partnerships {
+  padding-top:20px;
+}
+
+#main-logo {
+	-webkit-transition: margin-top .4s, -webkit-transform .4s; /* Safari */
+    /*transition: width 2s, height 2s, transform 2s;*/
+		transition: margin-top .4s;
+		/*cubuc-bezier(0.5, 0.31, 0.84, 0.05)*/
+
+
+}
