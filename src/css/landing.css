@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'OpenSans';
     font-style: normal;
     src: local('Open Sans'), local('Open Sans'), url(../fonts/Open_Sans/OpenSans-Light.ttf) format('truetype');
@@ -7,10 +7,35 @@
     font-family: 'OpenSans';
     font-style: italic;
     src: local('Open Sans'), local('Open Sans'), url(../fonts/Open_Sans/OpenSans-LightItalic.ttf) format('truetype');
+}*/
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: bold;
+    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: italic;
+    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    font-style: lighter;
+    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf) format('truetype');
+}
+/*@font-face {
+    font-family: 'OpenSans';
+    font-style: italic;
+    src: local('Open Sans'), local('Open Sans'), url(../fonts/Open_Sans/OpenSans-LightItalic.ttf) format('truetype');
+}*/
 
 body {
-  font-family: Open Sans, sans-serif;
+  font-family: Source Sans Pro, sans-serif;
 }
 
 .content {
@@ -21,21 +46,45 @@ body {
   font-family: Open Sans, italic;
 }
 
-h3 {
-  color: #999;
+h1 {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-size: 48px;
 }
 
 h4 {
-  /*color: blue;*/
-  color: #5e9516
+  color: #1279bc;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 24px;
 }
 
-h1 {
-  position: relative;
-  text-align: center;
+
+.bottom-shadow {
+  -webkit-box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.34);
+  -moz-box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.34);
+  box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.34);
 }
 
-h1 span {
+.jumbotron {
+  background:url('../img/banner-splash.png');
+  background-size:cover;
+  padding:120px;
+
+}
+
+.jumbotron .h1, .jumbotron h1 {
+  font-size: 48px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+
+/*h1 span {
   background: #fff;
   padding: 0 15px;
   position: relative;
@@ -53,7 +102,7 @@ h1:before {
 }
 h1:before {
   left: 0;
-}
+}*/
 
 footer > div > a {
   color: white;
@@ -78,10 +127,10 @@ video#bgvid {
 
 .btn-cta{
   font-size: 2em;
-  background: #1279bc;
+  color: #1279bc;
   opacity: .9;
   border: none;
-  color: white;
+  background: white;
   padding:20px 50px ;
   margin-top:30px;
 	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
@@ -91,8 +140,28 @@ video#bgvid {
 }
 
 .btn-cta:hover {
-  color: #1279bc;
+  color: white;
+  background: #1279bc;
 
+}
+
+.btn-bta{
+  font-size: 2em;
+  background: #1279bc;
+  opacity: .9;
+  border: solid 1px #1279bc;
+  color: white;
+  font-weight: bold;
+  padding:20px 50px ;
+  margin-top:30px;
+	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
+		transition: background .4s;
+}
+
+.btn-bta:hover {
+  background: white;
+  color: #1279bc;
+  border: solid 1px #1279bc;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
@@ -109,8 +178,13 @@ video#bgvid {
   text-align: center;
 }
 
+.btn {
+  text-transform: uppercase;
+}
+
 .navbar-nav > li > a {
 	text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 #partnerships {
@@ -118,10 +192,54 @@ video#bgvid {
 }
 
 #main-logo {
+  padding:20px 0;
 	-webkit-transition: margin-top .4s, -webkit-transform .4s; /* Safari */
     /*transition: width 2s, height 2s, transform 2s;*/
 		transition: margin-top .4s;
 		/*cubuc-bezier(0.5, 0.31, 0.84, 0.05)*/
+}
 
+.white-div {
+  padding: 30px;
+  color: #0277bf;
+}
+
+.white-div h3 {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.white-div .col-md-4 {
+  padding: 60px;
+}
+
+.white-div p {
+  font-size: 24px;
+  color: black;
+  font-weight: lighter;
+}
+
+.blue-div {
+  padding: 100px;
+  font-style: italic;
+  text-align: center;
+  background-color: #0277bf;
+  color: white;
+  font-size: 36px;
+}
+
+.blue-div a {
+  color: white;
+}
+
+.carousel-indicators li {
+  background-color: #0277bf;
+  opacity: .5;
+}
+.carousel-indicators .active {
+  background-color: #0277bf;
+  opacity: 1;
 
 }
