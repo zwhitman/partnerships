@@ -236,7 +236,7 @@ video#bgvid {
 .btn-bta{
   font-size: 2em;
   background: #1279bc;
-  opacity: .9;
+  /*opacity: .9;*/
   border: solid 1px #1279bc;
   color: white;
   font-weight: bold;
@@ -418,8 +418,8 @@ video#bgvid {
 
 
 .animation-target {
-  -webkit-animation: animation 3500ms linear infinite both;
-  animation: animation 3500ms linear infinite both;
+  -webkit-animation: animation 4500ms linear infinite both;
+  animation: animation 4500ms linear infinite both;
 }
 
 /* Generated with Bounce.js. Edit at https://goo.gl/jA35rf */
