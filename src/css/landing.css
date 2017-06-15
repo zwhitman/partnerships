@@ -152,7 +152,7 @@ h4 {
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   z-index: -1;
-	background: url(../img/freeze.png) no-repeat;
+	background: url(../img/freeze.jpg) no-repeat;
   background-size: cover;
 }
 
