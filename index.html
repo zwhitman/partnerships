@@ -29,7 +29,7 @@
 			<img class="img img-responsive hidden-xs" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="" style="width:300px;margin-left: calc( 50vw - 150px )">
 		  <div class="container-fluid">
 		    <div class="navbar-header" style="">
-		      <a class="navbar-brand hidden-md hidden-sm hidden-lg" href="#"><img class="img img-responsive" src="src/img/census-logo-white-bg2.jpg" alt="" style="height:130%;margin:-3px 0 0 -5px"></a>
+          <a class="navbar-brand hidden-md hidden-sm hidden-lg" href="#"><img class="img img-responsive" src="src/img/census-logo-white-bg2.jpg" alt="" style="height:130%;margin:-3px 0 0 -5px"></a>
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
@@ -41,9 +41,9 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="navbar" style="margin-bottom:10px">
 		      <ul class="nav navbar-nav">
-		        <li><a href="#learn">Learn More</a></li>
-		        <li><a href="#partnerships">Census Partnerships</a></li>
-		        <li><a href="#contact">Contact Us</a></li>
+		        <li><a href="#learn">Census Partnerships</a></li>
+		        <li><a href="#partnerships">Why Partner</a></li>
+		        <li><a href="#contact">How to Partner</a></li>
 		        <li><a href="#studies">Case Studies</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
@@ -54,37 +54,64 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-
 		<div class="jumbotron bottom-shadow vertical-center">
-			<div class="container-fluid text-center" style="">
+		  <video id="video-background" preload muted autoplay loop>
+		    <!-- <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+		    <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg"> -->
+					<source src="src/img/landing-vid.mp4" type="video/mp4">
+		  </video>
+			<div class="container-fluid text-center">
+				<div class="">
+					<h1 class="h1-merriweather" style="color:white;font-size:72px;padding-top:80px">Measuring America:<br> People, Places, and our Economy</h1>
+					<h3 style="color:white;font-size:30px">Partner with the Census Bureau to help America work better through data</h3>
+					<a href="#learn">
+						<button type="button" class="btn  btn-lg btn-default btn-cta bottom-shadow" >
+							Learn More
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="icon-target">
+			<a class="" href="#learn" style="color:white;">
+				<i class="animation-target fa  fa-angle-double-down fa-stack-2x"></i>
+			</a>
+
+		</div>
+
+		<!-- <div class="jumbotron bottom-shadow vertical-center" style='overflow:hidden'> -->
+				<!-- <video playsinline autoplay muted loop poster="" id="bgvid" style="height:300px">
+					<source src="src/img/landing-vid.mp4" type="video/mp4">
+				</video> -->
+
+			<!-- <div class="container-fluid text-center">
 				<h1>Help us measure America</h1>
 				<h3 style="color:white">Partner with us to help America work better through data</h3>
 				<a href="#learn">
 					<button type="button" class="btn  btn-lg btn-default btn-cta" >
-					Learn More
-				</button>
-			</a>
+						Learn More
+					</button>
+				</a>
 			</div>
-
-		</div>
+		</div> -->
 
 
 			<div id="learn" class="white-div bottom-shadow">
 				<div class="container text-center">
-					<h3>We want to help you make our data work for you</h3>
-					<div class="col-md-4">
-						<img class="img img-responsive" src="./src/img/school-icon.png" alt="school icon">
+					<h3 class="h1-merriweather" style="letter-spacing:0px;font-size:48px;text-transform:none">Make the most of Census Bureau data.</h3>
+					<div class="col-xs-12" style="padding-top:50px">
+						<img class="img img-responsive" src="./src/img/sub-banner.png" alt="school icon">
 					</div>
-					<div class="col-md-4 hidden-xs">
+					<!-- <div class="col-md-4 hidden-xs">
 						<img class="img img-responsive" src="./src/img/people-icon.png" alt="people icon">
 					</div>
 					<div class="col-md-4 hidden-xs hidden-sm">
 						<img class="img img-responsive" src="./src/img/build-icon.png" alt="building icon">
-					</div>
-					<div class="col-xs-12">
-						<p>We'll work with you to create new and innovative strategies for reaching your communities.</p>
-						<p>A complete and accurate Census is critical for government programs, policies, and decision-making.</p>
-
+					</div> -->
+					<div class="col-xs-12 col-md-10 col-md-offset-1" style="padding-top:50px">
+						<p>
+							The Census Bureau is America's leading source of quality data about the nation's people, places, and economy. Whether you’re a business, school, or nonprofit, we’ll work with you to find new and innovative ways to partner.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -92,23 +119,27 @@
 			<div class="blue-div bottom-shadow">
 				<div class="container container-fluid">
 					<p>
-						The Census Bureau is America's leading source of quality data about the nation's people, places, and economy. We can guide you to existing tools and services that meet your organization's mission, or co-create new ones with you.
+						From corporations to policymakers, foundations and nonprofits to developers— we work across sectors and industries.
 					</p>
 				</div>
 			</div>
 
 			<div id="partnerships" class="white-div bottom-shadow">
 				<div class="container container-fluid text-center">
-					<h3 style="margin-bottom:60px">Why partner with the Census Bureau</h3>
+					<h3 style="margin-bottom:60px;padding-top:60px">Why partner with the U.S. Census Bureau</h3>
 					<div class="col-md-6">
-						<img class="img img-responsive" style="max-height:200px" src="./src/img/hands-icon.png" alt="school icon">
+						<img class="img img-responsive" style="max-height:400px" src="./src/img/drive.png" alt="school icon">
 						<h4>Drive participation</h4>
-						<p>A complete and accurate Census is critical for government programs, policies, and decision-making.</p>
+						<p style="padding:0 20px">
+							Ensure your constituents, customers, and stakeholders are represented in vital Census Bureau household and business surveys.
+						</p>
 					</div>
 					<div class="col-md-6">
-						<img class="img img-responsive" style="max-height:200px" src="./src/img/network-icon.png" alt="people icon">
+						<img class="img img-responsive" style="max-height:400px" src="./src/img/participate.png" alt="people icon">
 						<h4>Make our data work for you</h4>
-						<p>We'll work with you to create new and innovative strategies for reaching your communities.</p>
+						<p style="padding:0 20px">
+							Create valuable new tools that improve business, policy, and American lives.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -116,21 +147,23 @@
 			<div class="blue-div bottom-shadow">
 				<div class="container">
 					<p>
-						Partner-driven workshops help increase data use and awareness in our communities and drive participation in Census Bureau’s surveys and programs.
+						Partner-driven workshops help increase data use and awareness and strengthen participation in Census Bureau surveys and programs.
 					</p>
 				</div>
 			</div>
 
 			<div id="involved" class="white-div bottom-shadow">
 				<div class="container-fluid text-center">
-					<h3>Ways to get involved</h3>
+					<h3>How to get involved</h3>
 					<div class="col-md-4">
 						<span class="fa-stack fa-3x">
 						  <i class="fa fa-circle fa-stack-2x"></i>
 						  <strong class="fa-stack-1x text-primary" style="color:white">1</strong>
 						</span>
 						<h4>Host an Open Innovation Challenge</h4>
-						<p>Inquire about joining or hosting facilitated sessions with fellow innovators, executives, decision-makers, and community leaders to work together on new solutions to shared challenges.</p>
+						<p>
+							Inquire about joining or hosting facilitated sessions with fellow innovators, executives, decision-makers, and other leaders to work together on new solutions to shared challenges.
+						</p>
 					</div>
 					<div class="col-md-4">
 						<span class="fa-stack fa-3x">
@@ -138,16 +171,21 @@
 						  <strong class="fa-stack-1x text-primary" style="color:white">2</strong>
 						</span>
 						<h4>Share your ideas with us</h4>
-						<p>Help us make the Census Bureau work for you. Submit your ideas for hosting events, creating content, or bringing Census to the people and people to the Census.</p>
+						<p>
+							Help us make the Census Bureau work for you. Submit your ideas for hosting events, creating content, or bringing the Census to the people and people to the Census.
+
+						</p>
 					</div>
 					<div class="col-md-4">
 						<span class="fa-stack fa-3x">
 						  <i class="fa fa-circle fa-stack-2x"></i>
 						  <strong class="fa-stack-1x text-primary" style="color:white">3</strong>
 						</span>
-						<h4>Use our guidebook</h4>
-						<p style="font-type:italic">Coming Fall 2017!</p>
-						<p>We are assembling best practices and evidence-based tools to help you better reach your communities and promote the Census.</p>
+						<h4>Use our guidebook &amp; toolkits</h4>
+						<p style="font-style:italic">Coming Fall 2017!</p>
+						<p>
+							We are assembling best practices and evidence-based tools to help you better reach your constituents and promote Census Bureau surveys.
+						</p>
 					</div>
 
 					<!-- <div class="col-xs-12">
@@ -162,7 +200,7 @@
 			<div id="contact" class="blue-div bottom-shadow">
 				<div class="container container-fluid">
 					<p>
-						We want to hear from you! <br> Help build the partnership experience by sending feedback to <a style="word-wrap:break-word" href="partners.experience@census.gov">partners.experience@census.gov</a>
+						We’re counting on you!<br> Help build the partnership experience by sending feedback to <a style="word-wrap:break-word" href="mailto:census.partners@census.gov"><span class="underline">census.partners@census.gov</span>.</a>
 					</p>
 				</div>
 			</div>
@@ -170,7 +208,9 @@
 			<div id="studies" class="white-div">
 				<div class="container container-fluid text-center">
 					<h3>Case Studies</h3>
-					<p style="margin-bottom:30px">From corporations, to policymakers, to foundations, to nonprofits, to developers—we work across sectors and industries in our nationwide effort to reach every person in America.</p>
+					<p class="col-md-8 col-md-offset-2" style="margin-bottom:30px">
+						We can guide you to existing tools and services that meet your organization's mission, or cocreate new ones with you.
+					</p>
 				</div>
 
 				<div class="container" style="max-width: 700px">
@@ -188,13 +228,16 @@
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" style="margin-bottom:50px;">
 					    <div class="item active">
+								<iframe width="100%" height="300" src="https://www.youtube.com/embed/4VJ-pfm3nrE" frameborder="0" allowfullscreen></iframe>
+					    </div>
+					    <div class="item">
 								<iframe width="100%" height="300" src="https://www.youtube.com/embed/7j9Fk0gOmG0" frameborder="0" allowfullscreen></iframe>
 					    </div>
 
-					    <div class="item">
+					    <!-- <div class="item">
 								<iframe width="100%" height="300" src="https://www.youtube.com/embed/KdkcNJ3FwgE" frameborder="0" allowfullscreen></iframe>
 					    </div>
-
+ -->
 					    <div class="item">
 								<iframe width="100%" height="300" src="https://www.youtube.com/embed/jgsdQxTv5kY" frameborder="0" allowfullscreen></iframe>
 					    </div>
@@ -222,24 +265,38 @@
 
 
 
-			<footer style="background-color:#1279bc;padding:30px;margin-top:30px">
-				<div class="container text-center" style=";color:white">
-	          <a class="uscb-secondary-link uscb-secondary-link-footer md-button md-ink-ripple" ng-transclude="" href="https://www.census.gov/about/policies/privacy/privacy-policy.html#par_textimage_1" title="Accessibility"><span class="ng-scope">Accessibility</span></a>
-	          <span hide-xs="" hide-sm="" show-gt-sm="" class="hide-sm hide-xs show-gt-sm">|</span>
-	          <a class="uscb-secondary-link uscb-secondary-link-footer md-button md-ink-ripple" ng-transclude="" href="https://www.census.gov/quality/" title="Information Quality"><span class="ng-scope">Information Quality</span></a>
-	          <span hide-xs="" hide-sm="" show-gt-sm="" class="hide-sm hide-xs show-gt-sm">|</span>
-	          <a class="uscb-secondary-link uscb-secondary-link-footer md-button md-ink-ripple" ng-transclude="" href="https://www.census.gov/foia/" title="FOIA"><span class="ng-scope">FOIA</span></a>
-	          <span hide-xs="" hide-sm="" show-gt-sm="" class="hide-sm hide-xs show-gt-sm">|</span>
-	          <a class="uscb-secondary-link uscb-secondary-link-footer md-button md-ink-ripple" ng-transclude="" href="https://www.census.gov/privacy/" title="Data Protection and Privacy Policy"><span class="ng-scope">Data Protection and Privacy Policy</span></a>
-	          <span hide-xs="" hide-sm="" show-gt-sm="" class="hide-sm hide-xs show-gt-sm">|</span>
-	          <a class="uscb-secondary-link uscb-secondary-link-footer md-button md-ink-ripple" ng-transclude="" href="https://www.commerce.gov/" title="U.S. Department of Commerce"><span class="ng-scope">U.S. Department of Commerce</span></a>
-	          <!-- <span hide-xs="" hide-sm="" show-gt-sm="" class="hide-sm hide-xs show-gt-sm">|</span> -->
-	          <!-- <a class="uscb-secondary-link uscb-secondary-link-footer md-button md-ink-ripple" ng-transclude="" href="./assets/Technology Preview Release Notes.pdf" download="" title="Release Notes"><span class="ng-scope">Release Notes</span></a>
-	          <span hide-xs="" hide-sm="" show-gt-sm="" class="hide-sm hide-xs show-gt-sm">|</span>
-	          <a class="uscb-secondary-link uscb-secondary-link-footer md-button md-ink-ripple" ng-transclude="" href="./assets/Data_Census_Gov FAQs 20170315.pdf" download="" title="FAQs"><span class="ng-scope">FAQs</span></a> -->
+			<footer style="background-color:#1279bc;padding:0px 30px 30px 30px;">
+				<div class="container">
+					<div class="col-md-offset-4 col-md-4 text-center" style=";padding:30px 50px 30px 50px">
+						<div class="col-xs-4" style="">
+							<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank" style="color:white">
+								<i class="fa fa-facebook-square fa-4x"></i>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a class="" href="https://twitter.com/uscensusbureau" target="_blank" style="color:white">
+								<i class="fa fa-twitter-square fa-4x"></i>
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a class="" href="mailto:census.partners@census.gov" style="color:white">
+								<i class="fa fa-envelope-square fa-4x"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="container text-center" style="font-size:20px;color:white;font-weight:lighter">
+	          <a href="https://www.census.gov/about/policies/privacy/privacy-policy.html#par_textimage_1" title="Accessibility">Accessibility</a>
+	          <span>|</span>
+	          <a href="https://www.census.gov/quality/" title="Information Quality">Information Quality</a>
+	          <span>|</span>
+	          <a href="https://www.census.gov/foia/" title="FOIA">FOIA</a>
+	          <span>|</span>
+	          <a href="https://www.census.gov/privacy/" title="Data Protection and Privacy Policy">Data Protection and Privacy Policy</a>
+	          <span>|</span>
+	          <a href="https://www.commerce.gov/" title="U.S. Department of Commerce">U.S. Department of Commerce</a>
 	      </div>
 			</footer>
-
 
 
 
