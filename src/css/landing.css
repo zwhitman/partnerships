@@ -98,6 +98,12 @@ h4 {
   width: 16px;
 }
 
+#learn > .container > .h1-merriweather {
+  letter-spacing:0px;
+  font-size:48px;
+  text-transform:none;
+}
+
 #titleCard > h1 {
   color:white;
   font-size:72px;
@@ -136,7 +142,7 @@ h4 {
 
 .navbar-default .navbar-nav>li>a {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   color: #1279bc;
 }
 
@@ -189,6 +195,11 @@ h4 {
   z-index: -1;
 	background: url(../img/freeze.jpg) no-repeat;
   background-size: cover;
+}
+
+footer {
+  background-color:#1279bc;
+  padding:30px 30px 50px 30px;
 }
 
 footer > div > a {
@@ -341,6 +352,43 @@ video#bgvid {
 }
 
 @media only screen and (max-width: 500px) {
+  .navbar-header {
+    height: 80px;
+
+  }
+  .navbar-brand {
+    /*padding: 20px 50px;*/
+    /*margin-top:20px;*/
+  }
+  .navbar-brand > img {
+    /*height: 120%;
+    width: 120%;*/
+    height: 50px;
+
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: rgba(0,0,0,0);
+    margin-top: 20px;
+    width: 50px;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #0277bf;
+  }
+
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #0277bf;
+
+  }
+  .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: white;
+  }
+
+  .navbar-toggle .icon-bar {
+    width: 100%;
+  }
+
   .jumbotron {
   }
 
@@ -398,12 +446,42 @@ video#bgvid {
     text-align: center;
     background-color: #0277bf;
     color: white;
-    font-size: 26px;
+    font-size: 20px;
+  }
+
+  .white-div {
+    padding: 30px 0;
+  }
+
+  .white-div p {
+    font-size: 18px;
+  }
+
+  .white-div h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
   }
 
   .white-div .col-md-4 {
-    padding: 60px 0;
+    padding: 20px 0;
   }
+
+  #learn > .container > .h1-merriweather {
+    font-size:28px;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  .social-div {
+    padding:0;
+    margin: 30px 0;
+  }
+
+
+
 
 }
 
