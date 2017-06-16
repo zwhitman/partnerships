@@ -153,6 +153,29 @@ h4 {
   z-index: 2;
 }
 
+.social-icon {
+  background-color:white;
+  border-radius:50%;
+  height:60px;
+  width:60px;
+  padding-top:10px;
+	-webkit-transition: background-color .4s, -webkit-transform .4s; /* Safari */
+		transition: background-color .4s;
+}
+
+.social-icon:hover {
+  background-color: #1279bc;
+}
+
+.social-icon > i {
+  color:#1279bc;
+	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
+		transition: color .4s;
+}
+.social-icon:hover > i {
+  color:white;
+}
+
 #video-background{
   position: absolute;
   height: auto;
