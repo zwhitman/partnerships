@@ -164,7 +164,6 @@ h4 {
   border-radius:50%;
   height:60px;
   width:60px;
-<<<<<<< HEAD
   padding-top:5px;
   padding-right: 1px;
   line-height: inherit;
@@ -199,24 +198,6 @@ h4 {
 
 .fa-stack:hover {
   color: #1279bc;
-=======
-  padding-top:10px;
-	-webkit-transition: background-color .4s, -webkit-transform .4s; /* Safari */
-		transition: background-color .4s;
-}
-
-.social-icon:hover {
-  background-color: #1279bc;
-}
-
-.social-icon > i {
-  color:#1279bc;
-	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
-		transition: color .4s;
-}
-.social-icon:hover > i {
-  color:white;
->>>>>>> 14b785a87304348c348d48cb7406aca1894ce237
 }
 
 #video-background{
@@ -346,11 +327,7 @@ video#bgvid {
   font-weight: 600;
   font-size: 36px;
   text-transform: uppercase;
-<<<<<<< HEAD
   letter-spacing: 5px;
-=======
-  letter-spacing: 7px;
->>>>>>> 14b785a87304348c348d48cb7406aca1894ce237
 }
 
 .white-div .col-md-4 {
@@ -365,20 +342,12 @@ video#bgvid {
 
 .blue-div {
   padding: 150px 0;
-<<<<<<< HEAD
   /*font-style: italic;*/
-=======
-  font-style: italic;
->>>>>>> 14b785a87304348c348d48cb7406aca1894ce237
   text-align: center;
   background-color: #0277bf;
   color: white;
   font-size: 36px;
   font-family: Merriweather, serif;
-<<<<<<< HEAD
-=======
-  font-style: italic;
->>>>>>> 14b785a87304348c348d48cb7406aca1894ce237
 }
 
 .blue-div a {
@@ -490,11 +459,7 @@ video#bgvid {
 
   .blue-div {
     padding: 20px 0;
-<<<<<<< HEAD
     /*font-style: italic;*/
-=======
-    font-style: italic;
->>>>>>> 14b785a87304348c348d48cb7406aca1894ce237
     text-align: center;
     background-color: #0277bf;
     color: white;
@@ -512,11 +477,7 @@ video#bgvid {
   .white-div h3 {
     font-size: 24px;
     text-transform: uppercase;
-<<<<<<< HEAD
     letter-spacing: 5px;
-=======
-    letter-spacing: 7px;
->>>>>>> 14b785a87304348c348d48cb7406aca1894ce237
   }
 
   .white-div .col-md-4 {
@@ -537,11 +498,7 @@ video#bgvid {
 
   .social-div {
     padding:0;
-<<<<<<< HEAD
     /*margin: 30px 0;*/
-=======
-    margin: 30px 0;
->>>>>>> 14b785a87304348c348d48cb7406aca1894ce237
   }
 
   #titleCard > h3 {
