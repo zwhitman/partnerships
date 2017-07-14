@@ -13,7 +13,7 @@
     font-style: italic;
     src: local('Merriweather'), local('Merriweather'), url(../fonts/Merriweather/Merriweather-BoldItalic.ttf) format('truetype');
 }
-
+/*
 @font-face {
     font-family: 'SourceSansPro';
     font-style: normal;
@@ -33,11 +33,60 @@
     font-family: 'SourceSansPro';
     font-style: lighter;
     src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf) format('truetype');
+}*/
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.eot');
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.woff') format('woff'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.eot');
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.eot');
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.woff2') format('woff2'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.woff') format('woff'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.eot');
+    src: url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.woff') format('woff'),
+         url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
 body {
-  font-family: Source Sans Pro, sans-serif;
+  /*font-family: Source Sans Pro, sans-serif;*/
+  font-family: 'source_sans_prolight';
 }
 
 .content {
@@ -45,7 +94,7 @@ body {
 }
 
 .italic {
-  font-family: Open Sans, italic;
+  font-family: 'source_sans_proitalic'
 }
 
 h1 {
@@ -138,7 +187,7 @@ h4 {
 }
 
 .navbar-default .navbar-nav>li>a {
-  font-weight: bold;
+  font-family: 'source_sans_probold';
   font-size: 16px;
   color: #1279bc;
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
@@ -267,7 +316,8 @@ video#bgvid {
   background: #1279bc;
   border: solid 1px #1279bc;
   color: white;
-  font-weight: bold;
+  /*font-weight: bold;*/
+  font-family:'source_sans_probold';
   padding:20px 50px ;
   margin-top:50px;
 	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
@@ -323,7 +373,7 @@ video#bgvid {
 
 .white-div h3 {
   color: #0277bf;
-  font-weight: 600;
+  font-family: 'source_sans_probold';
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -336,7 +386,7 @@ video#bgvid {
 .white-div p {
   font-size: 18px;
   color: #4A4A4A;
-  font-weight: lighter;
+  font-family: 'source_sans_proextralight';
 }
 
 .blue-div {
