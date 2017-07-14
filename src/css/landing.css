@@ -1,13 +1,3 @@
-/*@font-face {
-    font-family: 'OpenSans';
-    font-style: normal;
-    src: local('Open Sans'), local('Open Sans'), url(../fonts/Open_Sans/OpenSans-Light.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'OpenSans';
-    font-style: italic;
-    src: local('Open Sans'), local('Open Sans'), url(../fonts/Open_Sans/OpenSans-LightItalic.ttf) format('truetype');
-}*/
 @font-face {
     font-family: 'Merriweather';
     font-style: bold;
@@ -116,7 +106,6 @@ h4 {
   font-size:30px;
 }
 
-
 .bottom-shadow {
   -webkit-box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.34);
   -moz-box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.34);
@@ -138,7 +127,6 @@ h4 {
 .jumbotron .h1, .jumbotron h1 {
   font-size: 48px;
 }
-
 
 .navbar-default .navbar-nav>li>a {
   font-weight: bold;
@@ -170,6 +158,7 @@ h4 {
 	-webkit-transition: background-color .4s, -webkit-transform .4s; /* Safari */
 		transition: background-color .4s;
 }
+
 .social {
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
 	transition: color .4s;
@@ -180,7 +169,6 @@ h4 {
 }
 
 .fa-stack {
-  /*color: white;*/
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
 	transition: color .4s;
 
@@ -254,7 +242,6 @@ video#bgvid {
 .btn-cta:hover {
   color: white;
   background: #1279bc;
-
 }
 
 .btn-bta{
@@ -301,16 +288,10 @@ video#bgvid {
   color: #1279bc;
 }
 
-#partnerships {
-  /*padding-top:20px;*/
-}
-
 #main-logo {
   padding:20px 0;
 	-webkit-transition: margin-top .4s, -webkit-transform .4s; /* Safari */
-    /*transition: width 2s, height 2s, transform 2s;*/
-		transition: margin-top .4s;
-		/*cubuc-bezier(0.5, 0.31, 0.84, 0.05)*/
+	transition: margin-top .4s;
 }
 
 .fa-stack {
@@ -342,7 +323,6 @@ video#bgvid {
 
 .blue-div {
   padding: 150px 0;
-  /*font-style: italic;*/
   text-align: center;
   background-color: #0277bf;
   color: white;
@@ -358,10 +338,10 @@ video#bgvid {
   background-color: #0277bf;
   opacity: .5;
 }
+
 .carousel-indicators .active {
   background-color: #0277bf;
   opacity: 1;
-
 }
 
 .img-responsive {
@@ -373,15 +353,9 @@ video#bgvid {
     height: 80px;
 
   }
-  .navbar-brand {
-    /*padding: 20px 50px;*/
-    /*margin-top:20px;*/
-  }
-  .navbar-brand > img {
-    /*height: 120%;
-    width: 120%;*/
-    height: 50px;
 
+  .navbar-brand > img {
+    height: 50px;
   }
 
   .navbar-default .navbar-toggle {
@@ -406,12 +380,6 @@ video#bgvid {
     width: 100%;
   }
 
-  .jumbotron {
-  }
-
-  .jumbotron div {
-  }
-
   #titleCard > h1 {
     font-size:32px;
     margin-top:-50px;
@@ -421,7 +389,7 @@ video#bgvid {
     font-size:22px;
   }
 
-  .btn-cta{
+  .btn-cta {
     font-size: 1em;
     color: #1279bc;
     opacity: .9;
@@ -429,13 +397,12 @@ video#bgvid {
     background: white;
     margin-top:30px;
   	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
-  		transition: background .4s;
+  	transition: background .4s;
   }
 
   .btn-cta:hover {
     color: white;
     background: #1279bc;
-
   }
 
   .btn-bta{
@@ -447,7 +414,7 @@ video#bgvid {
     font-weight: bold;
     margin-top:30px;
   	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
-  		transition: background .4s;
+  	transition: background .4s;
   }
 
   .btn-bta:hover {
@@ -456,10 +423,8 @@ video#bgvid {
     border: solid 1px #1279bc;
   }
 
-
   .blue-div {
     padding: 20px 0;
-    /*font-style: italic;*/
     text-align: center;
     background-color: #0277bf;
     color: white;
@@ -492,13 +457,8 @@ video#bgvid {
     font-size:28px;
   }
 
-  footer {
-    /*padding: 0;*/
-  }
-
   .social-div {
     padding:0;
-    /*margin: 30px 0;*/
   }
 
   #titleCard > h3 {
@@ -509,20 +469,7 @@ video#bgvid {
     margin-left:33%;
   }
 
-
-
-
 }
-
-/*@media only screen and (max-width: 568px) {
-  #titleCard > h1 {
-    padding-top: 80px;
-  }
-  #titleCard > h3 {
-    margin-top:0px;
-  }
-
-}*/
 
 #icon-target{
   position: absolute;
@@ -531,7 +478,6 @@ video#bgvid {
   font-size:20px;
   color:#0277bf;
 }
-
 
 .animation-target {
   -webkit-animation: animation 4500ms linear infinite both;
