@@ -35,6 +35,7 @@
     src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf) format('truetype');
 }
 
+
 body {
   font-family: Source Sans Pro, sans-serif;
 }
@@ -56,10 +57,10 @@ h1 {
 
 h4 {
   color: #1279bc;
-  margin: 25px 25px 50px 25px;
+  margin: 75px 25px 25px 25px;
   font-size: 24px;
   font-family: Merriweather, serif;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .underline {
@@ -88,6 +89,14 @@ h4 {
   width: 16px;
 }
 
+#partnerships img {
+  max-height: 350px;
+}
+
+#involved img {
+  max-width: 150px;
+}
+
 #learn > .container > .h1-merriweather {
   letter-spacing:0px;
   font-size:48px;
@@ -96,14 +105,14 @@ h4 {
 
 #titleCard > h1 {
   color:white;
-  font-size:72px;
+  font-size:60px;
   padding-top:100px;
 }
 
 #titleCard > h3 {
   color:white;
   margin-top:50px;
-  font-size:30px;
+  font-size:24px;
 }
 
 .bottom-shadow {
@@ -132,6 +141,8 @@ h4 {
   font-weight: bold;
   font-size: 16px;
   color: #1279bc;
+	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
+	transition: color .4s;
 }
 
 .jumbotron{
@@ -145,6 +156,11 @@ h4 {
   position: relative;
   color: #ffffff;
   z-index: 2;
+  max-width:960px;;
+}
+
+.sub-container {
+  max-width: 50%;
 }
 
 .social-icon {
@@ -165,10 +181,11 @@ h4 {
 }
 
 .social-div {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .fa-stack {
+  color: white;
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
 	transition: color .4s;
 
@@ -205,7 +222,7 @@ h4 {
 
 footer {
   background-color:#1279bc;
-  padding:30px 30px 50px 30px;
+  padding:10px 30px 30px 30px;
 }
 
 footer > div > a {
@@ -245,15 +262,16 @@ video#bgvid {
 }
 
 .btn-bta{
-  font-size: 2em;
+  font-size: 1.5em;
+  letter-spacing: 3px;
   background: #1279bc;
   border: solid 1px #1279bc;
   color: white;
   font-weight: bold;
   padding:20px 50px ;
-  margin-top:30px;
+  margin-top:50px;
 	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
-		transition: background .4s;
+	transition: background .4s;
 }
 
 .btn-bta:hover {
@@ -277,7 +295,7 @@ video#bgvid {
 }
 
 .btn {
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -299,25 +317,25 @@ video#bgvid {
 }
 
 .white-div {
-  padding: 60px 30px 90px 30px;
+  padding: 60px 10px 90px 30px;
   color: #0277bf;
 }
 
 .white-div h3 {
   color: #0277bf;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
 
 .white-div .col-md-4 {
-  padding: 60px;
+  padding: 20px;
 }
 
 .white-div p {
-  font-size: 24px;
-  color: black;
+  font-size: 18px;
+  color: #4A4A4A;
   font-weight: lighter;
 }
 
@@ -326,7 +344,7 @@ video#bgvid {
   text-align: center;
   background-color: #0277bf;
   color: white;
-  font-size: 36px;
+  font-size: 30px;
   font-family: Merriweather, serif;
 }
 
@@ -386,7 +404,7 @@ video#bgvid {
   }
   #titleCard > h3 {
     color:white;
-    font-size:22px;
+    font-size:20px;
   }
 
   .btn-cta {
@@ -441,6 +459,7 @@ video#bgvid {
 
   .white-div h3 {
     font-size: 24px;
+    margin: 50px 0;
     text-transform: uppercase;
     letter-spacing: 5px;
   }
