@@ -23,12 +23,59 @@
 	</head>
 
 	<body>
-		<nav class="navbar navbar-fixed-top navbar-default" role="navigation" style="margin-bottom:0;background-color:white">
-			<a href="https://www.census.gov">
-				<img class="img img-responsive hidden-xs" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="" style="width:300px;margin-left: calc( 50vw - 150px )">
-			</a>
+	<!-- new navigation -->
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation" style="margin-bottom:0;background-color:white">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="img img-responsive hidden-xs" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="" style="width:200px;margin-left: calc( 20vw - 150px )"">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Partnerships</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Learn</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Learn</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Learn</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Toolkits <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Toolkit 1</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Toolkit 2</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Toolkit 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<!-- old navigation -->
+<!-- 		<nav class="navbar navbar-fixed-top navbar-default" role="navigation" style="margin-bottom:0;background-color:white">
+		
 		  <div class="container-fluid">
 		    <div class="navbar-header" style="">
+			<a href="https://www.census.gov">
+				<img class="img img-responsive hidden-xs" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="" style="width:200px;margin-left: calc( 20vw - 150px )">
+
           <a class="navbar-brand hidden-md hidden-sm hidden-lg" href="#"><img class="img img-responsive" src="src/img/census-logo-white-bg2.jpg" alt="" style=""></a>
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
 		        <span class="sr-only">Toggle navigation</span>
@@ -36,25 +83,25 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		    </div>
+		    </div> -->
 
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="navbar" style="margin-bottom:10px">
+		    <!-- Collect the nav links, forms, and other content for toggling 
+		    <div class="collapse navbar-collapse" id="navbar">
 		      <ul class="nav navbar-nav">
-		        <li><a href="#learn">Partnerships</a></li>
+		        <li><a href="#learn">Partnerships</a></li>-->
 		       <!--  <li><a href="#partnerships">Why Partner</a></li>
 		        <li><a href="#involved">How to Partner</a></li>
 		        <li><a href="#contact">Contact</a></li> -->
-		        <li><a href="#">Learn</a></li>
+		       <!-- <li><a href="#">Learn</a></li>
 		        <li><a href="#">Toolkits</a></li>
 
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="#"></a></li>
 		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
+		    </div><!-- /.navbar-collapse 
+		  </div>--> <!-- /.container-fluid 
+		</nav>-->
 
 		<div class="jumbotron bottom-shadow vertical-center">
 		  <video id="video-background" preload muted autoplay loop>
