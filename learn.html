@@ -104,18 +104,18 @@
 		</nav>-->
 
 		<div class="blue-header-div bottom-shadow vertical-center">
-			<div class="container-fluid">
-				<div id="titleCard">
-					<h1 >
+			<div class="container container-fluid">
+				<div id="titleCard" class="col-md-6">
+					<h1>
 						Learn
 					</h1>
 					<h3>
-						Partners are critical to the success of all Census Bureau <br>surveys. Do you know why the 2020 Census matters? Do you know <br> how participating can help your community?  <br> Arm yourself with the facts.
+						Partners are critical to the success of all Census Bureau surveys. Do you know why the 2020 Census matters? Do you know how participating can help your community? Arm yourself with the facts.
 					</h3>
 					<p>
-						<a href="">Census 101</a>
-						<a href="">Helping your community</a>
-						<a href="">Countdown to 2020</a>
+						<br><a href="#">Census 101</a>
+						<br><a href="#">Helping your community</a>
+						<br><a href="#">Countdown to 2020</a>
 					<p>
 				</div>
 			</div>
@@ -127,6 +127,7 @@
 				<h3 style="margin-bottom:60px" id="section-heading">
 					Census 101
 				</h3>
+			<div class="col-lg-12">
 				<p>What should I know about the 2020 Census?</p>
 				<div class="col-md-4">
 					<img class="img img-responsive" src="./src/img/Census101_Graphic_Representation.png" alt="pen icon">
@@ -171,6 +172,8 @@
 								  <i class="fa fa-envelope fa-stack-1x s-icon"></i>
 								</span>
 							</a>
+			</div>
+			<div class="col-md-8">
 				<h3>What is a census and what does the Census Bureau do?</h3>
 					<p>The census was written into the Constitution, and the first was taken in 1790. Once a decade, America comes together to participate in the Decennial Census, creating national awareness of the census and statistics. This census provides the basis for reapportioning Congressional seats, redistricting, and distributing more than $400 billion in federal funding to support your state, county and community’s vital programs.
 
@@ -185,7 +188,7 @@
 					<br><br>
 
 					<a href="#">Learn more about the Census Bureau’s surveys and programs.</a></p>
-
+			</div>
 			</div>
 		</div>
 			
@@ -194,7 +197,7 @@
 
 
 		<div id="help-your-community" class="white-div bottom-shadow">
-			<div class="container container-fluid text-center">
+			<div class="container container-fluid">
 				<h3 style="margin-bottom:60px;" id="section-heading">
 					Helping Your Community
 				</h3>
@@ -204,25 +207,73 @@
 
 
 
-				<div class="col-md-6">
-					<img class="img" src="./src/img/CensusIllustration_Website_Residents.png" height="200" alt="lighbulb icon" style="padding-top: 50px">
-					<p><strong>Residents</strong> use the census to support community initiatives involving legislation, quality-of-life and consumer advocacy.</p>
-				</div>
 
-				<div class="col-md-6">
-					<img class="img" src="./src/img/CensusIllustration_Website_LocalGovt.png" height="200" alt="lighbulb icon" style="padding-top: 50px">
-					<p><strong>Local governments</strong> use the census to ensure public safety and plan new schools and hospitals.</p>
-				</div>
+		<div class="row">
+		<!-- Residents -->
+			<div class="col-sm-6 col-md-6 col-xs-12">
 
-				<div class="col-md-6">
-					<img class="img" src="./src/img/CensusIllustration_Website_Business.png" height="200" alt="lighbulb icon" style="padding-top: 50px">
-					<p><strong>Businesses</strong> use census data to decide where to build factories, offices and stores, and these create jobs.</p>
-				</div>
-				<div class="col-md-6">
-					<img class="img" src="./src/img/CensusIllustration_Website_Home.png" height="200" alt="lighbulb icon" style="padding-top: 50px">
-					<p><strong>Real estate developers and city planners</strong> use the census to plan new homes and improve neighborhoods.</p>
-				</div>
+			   <div class="thumbnail" style="border:none; background:white;">
 
+			     <div class="col-sm-6 col-md-6 col-xs-12 image-container">
+			         <img class="img" src="./src/img/CensusIllustration_Website_Residents.png" height="200" alt="lighbulb icon">
+			     </div>
+
+			   <div class="col-sm-6 col-md-6 col-xs-12">
+			         <p><strong>Residents</strong> use the census to support community initiatives involving legislation, quality-of-life and consumer advocacy. </p>
+			    </div>
+			   </div>
+
+			 </div>
+
+		<!-- Business -->
+			 <div class="col-sm-6 col-md-6 col-xs-12">
+
+			   <div class="thumbnail" style="border:none; background:white;">
+
+			     <div class="col-sm-6 col-md-6 col-xs-12 image-container">
+			         <img class="img" src="./src/img/CensusIllustration_Website_Business.png" height="200" alt="lighbulb icon">
+			     </div>
+
+			   <div class="col-sm-6 col-md-6 col-xs-12">
+			         <p><strong>Businesses</strong> use census data to decide where to build factories, offices and stores, and these create jobs.</p>
+			    </div>
+			   </div>
+
+			 </div>
+
+		<!-- Local Governments -->
+			<div class="col-sm-6 col-md-6 col-xs-12">
+
+			   <div class="thumbnail" style="border:none; background:white;">
+
+			     <div class="col-sm-6 col-md-6 col-xs-12 image-container">
+			         <img class="img" src="./src/img/CensusIllustration_Website_LocalGovt.png" height="200" alt="lighbulb icon">
+			     </div>
+
+			   <div class="col-sm-6 col-md-6 col-xs-12">
+			         <p><strong>Local governments</strong> use the census to ensure public safety and plan new schools and hospitals.</p>
+			    </div>
+			   </div>
+
+			 </div> 
+
+		<!-- Real Estate -->
+			 <div class="col-sm-6 col-md-6 col-xs-12">
+
+			   <div class="thumbnail" style="border:none; background:white;">
+
+			     <div class="col-sm-6 col-md-6 col-xs-12 image-container">
+			         <img class="img" src="./src/img/CensusIllustration_Website_Home.png" height="200" alt="lighbulb icon">
+			     </div>
+
+			   <div class="col-sm-6 col-md-6 col-xs-12">
+			         <p><strong>Real estate developers and city planners</strong> use the census to plan new homes and improve neighborhoods.</p>
+			    </div>
+			   </div>
+
+			 </div> 
+
+		</div>
 				
 			<div>
 				<h3>Census engagement is not one-size-fits-all</h3>
