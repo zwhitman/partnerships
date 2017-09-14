@@ -8,6 +8,12 @@
   letter-spacing: 0;
 }
 
+.white-div h5 {
+  color:#0277bf;
+  font-size: 18px;
+  font-family: 'source_sans_prolight';
+}
+
 .white-div ul > li {
   color: black;
 }
@@ -64,7 +70,7 @@
     color: white;
     font-size: 45px;
     font-family: Merriweather, serif;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     text-align: left;
 }
 
@@ -80,3 +86,7 @@
   font-size: 20px;
 }
 
+
+#census-engagement {
+  padding-top: 30px;
+}
