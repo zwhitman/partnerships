@@ -1,1 +1,100 @@
 /* ------------- any custom code should go here ------------- */ 
+
+.white-div h3 {
+  color: #0277bf;
+  font-family: 'Merriweather-Bold';
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.white-div h5 {
+  color:#0277bf;
+  font-size: 18px;
+  font-family: 'source_sans_prolight';
+}
+
+.white-div ul > li {
+  color: black;
+}
+
+#section-heading {
+	font-family: 'source_sans_probold';
+	text-transform: uppercase;
+	font-size: 30px;
+  text-align: left;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    padding: 30px 100px 0 0;
+}
+
+.grey-div {
+  padding: 60px 10px 90px 30px;
+  color: #0277bf;
+  background-color: #F3F3F3;
+}
+
+.grey-div h3 {
+  color: #0277bf;
+  font-family: 'source_sans_probold';
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.grey-div .col-md-4 {
+  padding: 20px;
+}
+
+.grey-div p {
+  font-size: 18px;
+  color: #4A4A4A;
+  font-family: 'source_sans_proextralight';
+}
+
+.blue-header-div {
+    text-align: left;
+    background-color: #0277bf;
+    color: white;
+  }
+
+.blue-header-div #titleCard > h1 {
+    color: white;
+    font-size: 45px;
+    font-family: Merriweather, serif;
+    /*padding-top: 20px;*/
+    text-align: left;
+}
+
+.blue-header-div #titleCard > h3 {
+    color: white;
+    font-size: 24px;
+    font-family: 'source_sans_proextralight';
+}
+
+.blue-header-div a {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+
+#census-engagement {
+  padding-top: 30px;
+}
+
+#countdown img {
+    max-width: 233px;
+}
+
+#census-101 img {
+    max-width: 294px;
+}
