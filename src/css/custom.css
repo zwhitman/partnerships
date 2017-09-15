@@ -90,3 +90,7 @@
 #census-engagement {
   padding-top: 30px;
 }
+
+#countdown img {
+    max-width: 233px;
+}
