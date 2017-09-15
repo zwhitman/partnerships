@@ -98,3 +98,13 @@
 #census-101 img {
     max-width: 294px;
 }
+
+.download-toolkit{
+  font-size: 18px;
+  color: #0277bf;
+  font-weight: bold;
+}
+
+.download-toolkit i{
+margin-right: 5px;
+}
