@@ -98,3 +98,7 @@
 #census-101 img {
     max-width: 294px;
 }
+
+.container > form {
+  color: black;
+}
