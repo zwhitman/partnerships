@@ -99,6 +99,7 @@
     max-width: 294px;
 }
 
+<<<<<<< HEAD
 .download-toolkit{
   font-size: 18px;
   color: #0277bf;
@@ -107,4 +108,8 @@
 
 .download-toolkit i{
 margin-right: 5px;
+=======
+.container > form {
+  color: black;
+>>>>>>> 386fb8984f54af578fafb4d22d7a73689374ada0
 }
