@@ -23,6 +23,13 @@
 	text-transform: uppercase;
 	font-size: 30px;
   text-align: left;
+  color:#0277bf;
+}
+
+#alternate-h3 {
+  color:#0277bf;
+  font-size: 22px;
+  font-family: 'Source Sans Pro';
 }
 
 .navbar .navbar-collapse {
