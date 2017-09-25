@@ -112,3 +112,45 @@ margin-right: 5px;
 .container > form {
   color: black;
 }
+
+.share-hover{
+  display: none;
+}
+
+.learn-img:hover{
+  cursor: pointer;
+  opacity: .2;
+}
+
+.learn-img:hover + .share-hover{
+  display: block;
+  margin-bottom: 0px;
+  opacity: .99;
+
+}
+
+.share-hover:hover{
+  display: block;
+}
+
+.share-hover{
+  width: 294px;
+  height: 294px;
+  margin-top: -294px;
+  text-align: center;
+}
+
+.share-hover h3{
+  color: #0277bf;
+  font-family: 'source_sans_probold';
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.share-hover i{
+  opacity: 1;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 15px;
+}
