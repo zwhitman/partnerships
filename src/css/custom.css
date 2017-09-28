@@ -124,39 +124,28 @@ margin-right: 5px;
   color: black;
 }
 
-.learn-img:hover {
-  opacity: .2;
+#sign-up .col-md-6{
+  padding-left: 0px;
 }
 
-.share-hover{
-  visibility: hidden;
-  z-index: 100;
-  margin-top: -375px;
-  text-align: center;
-  width: 294px;
-  height: 294px;
-  z-index: 10;
-  }
-
-.share-hover h3{
-  margin-top: 150px;
-  margin-bottom: 20px;
-  color: #0277bf;
-  font-family: 'source_sans_probold';
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+#sign-up .form-group .col-md-6{
+  padding-left: 0px;
 }
 
-.share-hover i{
-  text-decoration: none;
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-bottom: 15px;
-  opacity: 1;
-
+#sign-up .last-name{
+  padding-right: 0px;
 }
 
-.share-hover i:hover + .share-hover, .share-hover:hover + .share-hover, .learn-img:hover + .share-hover{
-  visibility: visible;
+#sign-up label{
+  margin-top: 10px;
+}
+
+#sign-up button{
+  margin: 20px 0px;
+  width: 200px;
+  height: 50px;
+}
+
+#sign-up #right{
+  padding-left: 15px;
 }
