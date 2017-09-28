@@ -196,3 +196,21 @@ margin-right: 5px;
   text-decoration: none;
   cursor: pointer;
 }
+
+.row .thumbnail{
+  border:none;
+  background:white;
+}
+
+.icon-col{
+  border-right: 1px solid black;
+}
+
+#census-engagement{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#census-engagement p, .learn-community-outreach{
+  padding-bottom: 50px;
+}
