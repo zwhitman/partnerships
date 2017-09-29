@@ -110,6 +110,10 @@
     max-width: 294px;
 }
 
+#census-101-2020{
+  margin-bottom:100px;
+}
+
 .download-toolkit{
   font-size: 18px;
   color: #0277bf;
@@ -118,6 +122,10 @@
 
 .download-toolkit i{
 margin-right: 5px;
+}
+
+.img-toolkit {
+  border: 2px solid #F3F3F3;
 }
 
 .container > form {
@@ -196,3 +204,48 @@ margin-right: 5px;
   text-decoration: none;
   cursor: pointer;
 }
+
+.row .thumbnail{
+  border:none;
+  background:white;
+}
+
+.icon-col{
+  border-right: 1px solid black;
+}
+
+#census-engagement{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#census-engagement p, .learn-community-outreach, .community-outreach-2020, #helping-your-community-row{
+  padding-bottom: 50px;
+}
+
+#what-should-i-know{
+  margin-top: 100px;
+}
+
+.act-header{
+  color:#0277bf;
+  font-size: 25px;
+}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 920px) {
+.white-div h3 {
+    margin: 20px 20px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+.white-div p {
+    margin:20px 20px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .btn-primary {
+    margin: 0 20px 0 20px;
+  }
