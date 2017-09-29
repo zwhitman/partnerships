@@ -106,8 +106,16 @@
     max-width: 233px;
 }
 
+#countdown p {
+  margin-bottom: 60px;
+}
+
 #census-101 img {
     max-width: 294px;
+}
+
+#census-101-2020{
+  margin-bottom:100px;
 }
 
 .download-toolkit{
@@ -211,6 +219,15 @@ margin-right: 5px;
   padding-top: 50px;
 }
 
-#census-engagement p, .learn-community-outreach{
+#census-engagement p, .learn-community-outreach, .community-outreach-2020, #helping-your-community-row{
   padding-bottom: 50px;
+}
+
+#what-should-i-know{
+  margin-top: 100px;
+}
+
+.act-header{
+  color:#0277bf;
+  font-size: 25px;
 }
