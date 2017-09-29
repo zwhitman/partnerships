@@ -237,15 +237,13 @@ margin-right: 5px;
 .white-div h3 {
     margin: 20px 20px 20px 20px;
   }
-}
 
-@media only screen and (max-width: 920px) {
 .white-div p {
     margin:20px 20px 20px 20px;
   }
-}
 
-@media only screen and (max-width: 920px) {
-  .btn-primary {
+.btn-primary {
     margin: 0 20px 0 20px;
   }
+}
+
