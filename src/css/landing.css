@@ -471,7 +471,7 @@ video#bgvid {
 
   #titleCard > h1 {
     font-size:32px;
-    margin-top:-50px;
+    margin-top:0px;
   }
   #titleCard > h3 {
     color:white;
@@ -539,9 +539,9 @@ video#bgvid {
     padding: 20px 0;
   }
 
-  #titleCard > h1 {
+/*  #titleCard > h1 {
     padding-top: 10px;
-  }
+  }*/
 
   #learn > .container > .h1-merriweather {
     font-size:28px;
