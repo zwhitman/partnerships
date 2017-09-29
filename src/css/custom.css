@@ -120,6 +120,10 @@
 margin-right: 5px;
 }
 
+.img-toolkit {
+  border: 2px solid #F3F3F3;
+}
+
 .container > form {
   color: black;
 }
