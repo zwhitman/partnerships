@@ -269,3 +269,19 @@ margin-right: 5px;
 #learn .col-md-6{
   padding: 0px 40px;
 }
+
+.blue-header-div{
+  padding-bottom: 50px;
+  padding-top: 150px;
+}
+.blue-header-div h1{
+  font-family: Merriweather, serif;
+  text-align: left;
+  font-size: 26px;
+}
+
+.blue-header-div h3{
+  font-size: 24px;
+  max-width: 531px;
+  line-height: 27px;
+}

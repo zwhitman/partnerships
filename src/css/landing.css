@@ -113,6 +113,7 @@ h4 {
 .h1-merriweather {
   font-family: Merriweather, serif;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .carousel-indicators li {
@@ -164,6 +165,9 @@ h4 {
   color:white;
   margin-top:50px;
   font-size:24px;
+  max-width: 450px;
+  margin: auto;
+  line-height: 34px;
 }
 
 .bottom-shadow {
