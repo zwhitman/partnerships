@@ -285,3 +285,11 @@ margin-right: 5px;
   max-width: 531px;
   line-height: 27px;
 }
+
+.blue-header-div p{
+  line-height: 32px;
+}
+
+.blue-header-div a{
+  font-size: 18px;
+}
