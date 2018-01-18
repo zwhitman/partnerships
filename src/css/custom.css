@@ -7,6 +7,7 @@
   line-height: 25px;
   text-transform: none;
   letter-spacing: 0;
+  margin: 32px 0px;
 }
 
 .white-div h5 {
@@ -22,6 +23,10 @@
   padding-bottom: 20px;
 }
 
+.white-div a{
+  text-decoration: underline;
+}
+
 
 #section-heading {
 	font-family: 'source_sans_probold';
@@ -30,6 +35,7 @@
   text-align: left;
   color:#0277bf;
   letter-spacing: 5px;
+  margin-bottom: 70px;
 }
 
 #alternate-h3 {
