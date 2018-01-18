@@ -1,18 +1,5 @@
-@font-face {
-    font-family: 'Merriweather';
-    font-style: bold;
-    src: local('Merriweather'), local('Merriweather'), url(../fonts/Merriweather/Merriweather-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Merriweather';
-    font-style: bolder;
-    src: local('Merriweather'), local('Merriweather'), url(../fonts/Merriweather/Merriweather-Black.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Merriweather';
-    font-style: italic;
-    src: local('Merriweather'), local('Merriweather'), url(../fonts/Merriweather/Merriweather-BoldItalic.ttf) format('truetype');
-}
+
+
 /*
 @font-face {
     font-family: 'SourceSansPro';
@@ -156,9 +143,6 @@ h4 {
   text-transform:none;
 }
 
-#learn img{
-  padding-top: 50px;
-}
 
 #studies p{
   margin-top:30px;
@@ -167,8 +151,10 @@ h4 {
 
 #titleCard > h1 {
   color:white;
-  font-size:60px;
+  font-size:48px;
   padding-top:100px;
+  font-weight: 800;
+  line-height: 48px;
 }
 
 #titleCard > h3 {
@@ -529,7 +515,8 @@ video#bgvid {
   }
 
   .white-div h3 {
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 25px;
     margin: 50px 0;
     text-transform: uppercase;
     letter-spacing: 5px;

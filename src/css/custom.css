@@ -3,7 +3,8 @@
 .white-div h3 {
   color: #0277bf;
   font-family: 'Merriweather-Bold';
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 25px;
   text-transform: none;
   letter-spacing: 0;
 }
@@ -25,9 +26,10 @@
 #section-heading {
 	font-family: 'source_sans_probold';
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 24px;
   text-align: left;
   color:#0277bf;
+  letter-spacing: 5px;
 }
 
 #alternate-h3 {
