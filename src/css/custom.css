@@ -293,3 +293,7 @@ margin-right: 5px;
 .blue-header-div a{
   font-size: 18px;
 }
+
+.narrow{
+  max-width: 516px;
+}
