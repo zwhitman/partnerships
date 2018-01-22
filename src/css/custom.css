@@ -229,10 +229,6 @@ margin-right: 5px;
   background:white;
 }
 
-.icon-col{
-  border-right: 1px solid black;
-}
-
 #census-engagement{
   padding-bottom: 50px;
   padding-top: 50px;
@@ -339,4 +335,63 @@ max-width: 400px;
 
 #download-section{
   margin-top: 51px;
+}
+
+#twentytwentypage #section-heading{
+  margin-bottom: 50px;
+}
+
+#twentytwentypage h3{
+  margin-bottom: 25px;
+}
+
+#twentytwentypage .white-div a{
+  text-decoration: none;
+}
+#twentytwentypage .white-div .action-p{
+  color: #0277bf;
+  font-family: 'Source Sans Pro';
+  line-height: 22px;
+}
+.census-community img{
+  max-width: 173px;
+  margin-left: -60px;
+  padding-left: 30px;
+  margin-top: -20px;
+}
+.bold{
+  font-family: 'Source Sans Pro';
+}
+.census-community p{
+  margin-top: 25px;
+}
+.census-engagement img{
+  height: 131px;
+  margin-top: 55px;
+}
+.census-engagement h5{
+  max-width: 145px;
+  margin-top: 29px;
+  line-height: 23px;
+  margin-bottom: 68px;
+}
+#twentytwentypage .white-div .community-outreach-2020 a{
+  text-decoration: underline;
+}
+#countdown #section-heading{
+  margin-bottom: 39px;
+}
+#countdown .narrow{
+  margin-bottom: 52px;
+}
+
+#twentytwentypage #countdown h3{
+  margin-bottom: 15px;
+}
+
+#twentytwentypage .white-div ul li a{
+  text-decoration: underline;
+}
+#twentytwentypage .white-div ul li {
+    list-style-image: url('../img/bullet.png');
 }
