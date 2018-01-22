@@ -395,3 +395,9 @@ max-width: 400px;
 #twentytwentypage .white-div ul li {
     list-style-image: url('../img/bullet.png');
 }
+#act-2020 #section-heading{
+  margin-bottom: 25px;
+}
+#act-2020 h3{
+  margin-bottom: 24px;
+}
