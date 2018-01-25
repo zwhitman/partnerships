@@ -2,7 +2,8 @@
 
 .white-div h3 {
   color: #0277bf;
-  font-family: 'Merriweather-Bold';
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
   font-size: 20px;
   line-height: 25px;
   text-transform: none;
@@ -82,11 +83,11 @@
 
 .grey-div .action-link{
   margin-left: 19px;
-  font-family: Merriweather, serif;
+  font-family: 'Merriweather', serif;
   letter-spacing: 0px;
   text-decoration: underline;
   text-transform: none;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
 }
 
@@ -99,7 +100,7 @@
 .blue-header-div #titleCard > h1 {
     color: white;
     font-size: 45px;
-    font-family: Merriweather, serif;
+    font-family: 'Merriweather', serif;
     /*padding-top: 20px;*/
     text-align: left;
 }
@@ -271,7 +272,7 @@ margin-right: 5px;
   padding-top: 150px;
 }
 .blue-header-div h1{
-  font-family: Merriweather, serif;
+  font-family: 'Merriweather', serif;
   text-align: left;
   font-size: 26px;
 }

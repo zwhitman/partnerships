@@ -95,8 +95,8 @@ h4 {
   color: #1279bc;
   margin: 75px 25px 25px 25px;
   font-size: 24px;
-  font-family: Merriweather, serif;
-  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 
 .underline {
@@ -111,8 +111,8 @@ h4 {
 }
 
 .h1-merriweather {
-  font-family: Merriweather, serif;
-  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
   margin-bottom: 50px;
 }
 
@@ -411,8 +411,8 @@ video#bgvid {
   font-size: 24px;
   line-height: 34px;
   letter-spacing: .43px;
-  font-family: Merriweather, serif;
-  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 
 .blue-div p{
