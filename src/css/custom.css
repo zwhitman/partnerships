@@ -471,10 +471,14 @@ textarea{
 #explore-button{
   margin-left: 20px;
 }
-.mobile-padded, .white-div .mobile-padded{
+.mobile-padded, .white-div .mobile-padded, #sign-up .col-md-6{
   padding: 0px 15px;
 }
 .icons{
   padding: 0px 15px;
 }
+#sign-up .last-name, #sign-up .first-name{
+  padding-right: 0px;
+}
+
 }
