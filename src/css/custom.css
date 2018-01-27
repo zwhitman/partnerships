@@ -459,3 +459,10 @@ textarea{
   margin-left: 0px;
   margin-top: 10px;
 }
+.navbar-default .navbar-nav>li>a{
+  text-align: center;
+}
+.navbar .navbar-nav{
+  padding-top: 10px;
+}
+}
