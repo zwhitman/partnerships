@@ -480,5 +480,11 @@ textarea{
 #sign-up .last-name, #sign-up .first-name{
   padding-right: 0px;
 }
-
+.mobile-padded-2x{
+  padding: 0px 30px;
+}
+#census-workshop-toolkit img{
+  width: 90%;
+  margin-left: 20px;
+}
 }
