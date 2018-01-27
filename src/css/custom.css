@@ -468,4 +468,13 @@ textarea{
 .blue-header-div .container{
   padding: 0px 30px;
 }
+#explore-button{
+  margin-left: 20px;
+}
+.mobile-padded, .white-div .mobile-padded{
+  padding: 0px 15px;
+}
+.icons{
+  padding: 0px 15px;
+}
 }
