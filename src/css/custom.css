@@ -397,6 +397,7 @@ max-width: 400px;
 }
 #twentytwentypage .white-div ul li {
     list-style-image: url('../img/bullet.png');
+    margin-left: -18px;
 }
 #act-2020 #section-heading{
   margin-bottom: 25px;
