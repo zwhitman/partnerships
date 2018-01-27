@@ -402,3 +402,10 @@ max-width: 400px;
 #act-2020 h3{
   margin-bottom: 24px;
 }
+
+#animated-arrows{
+  color: white;
+}
+#animated-arrows i{
+  bottom: 10px;
+}
