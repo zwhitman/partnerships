@@ -409,3 +409,6 @@ max-width: 400px;
 #animated-arrows i{
   bottom: 10px;
 }
+#about #section-heading{
+  text-align: center;
+}
