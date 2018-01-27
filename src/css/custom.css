@@ -435,3 +435,8 @@ textarea{
 .narrow-lg{
   max-width: 580px;
 }
+@media (max-width: 400px) {
+#animated-arrows{
+    display: none;
+  }
+}
