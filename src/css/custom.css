@@ -422,3 +422,7 @@ max-width: 400px;
 #learn .white-div h3{
   margin-bottom: -15px;
 }
+#explore-button{
+  margin-left: 20px;
+  padding: 20px;
+}
