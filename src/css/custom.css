@@ -126,10 +126,6 @@
     max-width: 233px;
 }
 
-#census-101 img {
-    max-width: 294px;
-}
-
 #census-101-2020{
   margin-bottom:100px;
 }
@@ -483,8 +479,17 @@ textarea{
 .mobile-padded-2x{
   padding: 0px 30px;
 }
-#census-workshop-toolkit img{
+#census-workshop-toolkit img, #community-outreach-toolkit img{
   width: 90%;
   margin-left: 20px;
+}
+.census-community .image-container{
+  align-content: center;
+}
+#countdown img{
+  margin-bottom: 0px;
+}
+#get-mobilized .col-md-4{
+  padding: 0px;
 }
 }
