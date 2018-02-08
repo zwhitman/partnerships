@@ -390,6 +390,7 @@ max-width: 400px;
 }
 
 #twentytwentypage .white-div ul li a{
+  font-family: 'Roboto', sans-serif;
   text-decoration: underline;
 }
 #twentytwentypage .white-div ul li {
