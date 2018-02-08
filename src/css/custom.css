@@ -524,3 +524,13 @@ textarea{
   background-color: #0095A8;
   border: none;
 }
+.dropdown-menu i{
+  float: right;
+  margin-left: 80px;
+}
+.dropdown-menu .s-icon:hover{
+  color: black;
+}
+.navbar-nav>li>.dropdown-menu{
+  width: 200px;
+}
