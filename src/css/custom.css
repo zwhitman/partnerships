@@ -504,3 +504,15 @@ textarea{
   background-color: #FF7043;
   border: none;
 }
+.navy-div{
+  background-color: #112E51;
+}
+.navy-div #section-heading{
+  color: #FF7043;
+}
+.navy-div p{
+  color: white;
+}
+.navy-div a{
+  color: #FF7043;
+}
