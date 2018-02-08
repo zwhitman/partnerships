@@ -20,7 +20,7 @@ h1 {
 }
 
 h4 {
-  color: #1279bc;
+  color: #112E51;
   margin: 75px 25px 25px 25px;
   font-size: 24px;
   font-family: 'Lora', serif;
@@ -32,10 +32,10 @@ h4 {
   display: inline-block;
   line-height: 0.85;
   text-shadow:
-    2px 2px #1279bc,
-    2px -2px #1279bc,
-    -2px 2px #1279bc,
-    -2px -2px #1279bc;
+    2px 2px #112E51,
+    2px -2px #112E51,
+    -2px 2px #112E51,
+    -2px -2px #112E51;
 }
 
 .h1-merriweather {
@@ -116,9 +116,9 @@ h4 {
 }
 
 .navbar-default .navbar-nav>li>a {
+  color: #0095A8;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
-  color: #1279bc;
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
 	transition: color .4s;
 }
@@ -170,7 +170,7 @@ h4 {
 }
 
 .s-icon {
-  color: #1279bc;
+  color: #112E51;
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
 	transition: color .4s;
 }
@@ -180,7 +180,7 @@ h4 {
 }
 
 .fa-stack:hover {
-  color: #1279bc;
+  color: #112E51;
 }
 
 #video-background{
@@ -199,7 +199,7 @@ h4 {
 }
 
 footer {
-  background-color:#1279bc;
+  background-color:#112E51;
   padding:10px 30px 30px 30px;
 }
 
@@ -224,7 +224,7 @@ video#bgvid {
 
 .btn-cta{
   font-size: 2em;
-  color: #1279bc;
+  color: #112E51;
   opacity: .9;
   border: none;
   background: white;
@@ -236,14 +236,14 @@ video#bgvid {
 
 .btn-cta:hover {
   color: white;
-  background: #1279bc;
+  background: #112E51;
 }
 
 .btn-bta{
   font-size: 1.5em;
   letter-spacing: 3px;
-  background: #1279bc;
-  border: solid 1px #1279bc;
+  background: #112E51;
+  border: solid 1px #112E51;
   color: white;
   /*font-weight: bold;*/
   font-family: 'Roboto Condensed', sans-serif;
@@ -255,8 +255,8 @@ video#bgvid {
 
 .btn-bta:hover {
   background: white;
-  color: #1279bc;
-  border: solid 1px #1279bc;
+  color: #112E51;
+  border: solid 1px #112E51;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
@@ -282,7 +282,7 @@ video#bgvid {
 .navbar-nav > li > a {
 	text-transform: uppercase;
   letter-spacing: 3px;
-  color: #1279bc;
+  color: #112E51;
 }
 
 .navbar-fixed-top{
@@ -304,11 +304,11 @@ video#bgvid {
 
 .white-div {
   padding: 20px 0px 60px 0px;
-  color: #0277bf;
+  color: #112E51;
 }
 
 /*.white-div h3 {
-  color: #0277bf;
+  color: #112E51;
   font-family: 'source_sans_probold';
   font-size: 24px;
   text-transform: uppercase;
@@ -328,7 +328,7 @@ video#bgvid {
 .blue-div {
   padding: 105px 0;
   text-align: center;
-  background-color: #0277bf;
+  background-color: #112E51;
   color: white;
   font-size: 24px;
   line-height: 34px;
@@ -348,12 +348,12 @@ video#bgvid {
 }
 
 .carousel-indicators li {
-  background-color: #0277bf;
+  background-color: #112E51;
   opacity: .5;
 }
 
 .carousel-indicators .active {
-  background-color: #0277bf;
+  background-color: #112E51;
   opacity: 1;
 }
 
@@ -378,11 +378,11 @@ video#bgvid {
   }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #0277bf;
+    background-color: #112E51;
   }
 
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #0277bf;
+    background-color: #112E51;
 
   }
   .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
@@ -404,7 +404,7 @@ video#bgvid {
 
   .btn-cta {
     font-size: 1em;
-    color: #1279bc;
+    color: #112E51;
     opacity: .9;
     border: none;
     background: white;
@@ -415,14 +415,14 @@ video#bgvid {
 
   .btn-cta:hover {
     color: white;
-    background: #1279bc;
+    background: #112E51;
   }
 
   .btn-bta{
     font-size: 1em;
-    background: #1279bc;
+    background: #112E51;
     opacity: .9;
-    border: solid 1px #1279bc;
+    border: solid 1px #112E51;
     color: white;
     font-weight: bold;
     margin-top:30px;
@@ -432,14 +432,14 @@ video#bgvid {
 
   .btn-bta:hover {
     background: white;
-    color: #1279bc;
-    border: solid 1px #1279bc;
+    color: #112E51;
+    border: solid 1px #112E51;
   }
 
   .blue-div {
     padding: 20px 0;
     text-align: center;
-    background-color: #0277bf;
+    background-color: #112E51;
     color: white;
     font-size: 20px;
   }
@@ -508,7 +508,7 @@ video#bgvid {
   bottom: 120px;
   left: calc( 50vw - 10px );
   font-size:20px;
-  color:#0277bf;
+  color:#112E51;
 }
 
 footer #footer-icons{
