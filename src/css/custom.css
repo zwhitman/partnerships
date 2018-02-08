@@ -500,7 +500,7 @@ textarea{
   margin-right: 40px;
 }
 }
-#join-us-button, #join-button{
+#join-us-button, #join-button, .navy-div #explore-button{
   background-color: #FF7043;
   border: none;
 }
@@ -518,4 +518,8 @@ textarea{
 }
 .navy-div h3{
   color: white;
+}
+#explore-button{
+  background-color: #0095A8;
+  border: none;
 }
