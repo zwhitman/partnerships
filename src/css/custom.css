@@ -2,7 +2,7 @@
 
 .white-div h3 {
   color: #0277bf;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
@@ -14,7 +14,7 @@
 .white-div h5 {
   color:#0277bf;
   font-size: 18px;
-  font-family: 'source_sans_prolight';
+  font-family: 'Roboto', sans-serif;
 }
 
 .white-div ul > li {
@@ -30,7 +30,7 @@
 
 
 #section-heading {
-	font-family: 'source_sans_probold';
+  font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 	font-size: 24px;
   text-align: left;
@@ -64,7 +64,7 @@
 
 .grey-div h3 {
   color: #0277bf;
-  font-family: 'source_sans_probold';
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -78,12 +78,11 @@
 .grey-div p {
   font-size: 18px;
   color: #4A4A4A;
-  font-family: 'source_sans_proextralight';
 }
 
 .grey-div .action-link{
   margin-left: 19px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   letter-spacing: 0px;
   text-decoration: underline;
   text-transform: none;
@@ -100,7 +99,7 @@
 .blue-header-div #titleCard > h1 {
     color: white;
     font-size: 45px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
     /*padding-top: 20px;*/
     text-align: left;
 }
@@ -209,7 +208,7 @@ margin-right: 5px;
 .share-overlay h3{
   margin-top: 80px;
   margin-bottom: 10px;
-  font-family: 'source_sans_probold';
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -270,7 +269,7 @@ margin-right: 5px;
   padding-top: 150px;
 }
 .blue-header-div h1{
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   text-align: left;
   font-size: 36px;
 }
