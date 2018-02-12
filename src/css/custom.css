@@ -520,6 +520,7 @@ textarea{
 #explore-button{
   background-color: #0095A8;
   border: none;
+  margin-top: 0px;
 }
 .dropdown-menu i{
   float: right;
