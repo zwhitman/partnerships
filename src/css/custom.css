@@ -345,8 +345,8 @@ max-width: 400px;
   margin-bottom: 25px;
 }
 
-#twentytwentypage .white-div a{
-  text-decoration: none;
+#twentytwentypage .white-div p a{
+  text-decoration: underline;
 }
 #twentytwentypage .white-div .action-p{
   color: #112E51;
