@@ -500,6 +500,7 @@ textarea{
 #join-us-button, #join-button, .navy-div #explore-button{
   background-color: #FF7043;
   border: none;
+  margin-top: 0px;
 }
 .navy-div{
   background-color: #112E51;
