@@ -30,6 +30,10 @@ a{
   text-decoration: underline;
 }
 
+.white-div .share-overlay a{
+  text-decoration: none;
+}
+
 
 #section-heading {
   font-family: 'Roboto Condensed', sans-serif;
