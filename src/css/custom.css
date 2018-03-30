@@ -536,3 +536,13 @@ textarea{
 .navbar-nav>li>.dropdown-menu{
   width: 200px;
 }
+#privacy-act-statement{
+  height: 150px;
+  overflow-y: scroll;
+  background-color: #F3F3F3;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 15px #F3F3F3;
+}
