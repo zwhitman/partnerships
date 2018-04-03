@@ -545,4 +545,8 @@ textarea{
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: solid 15px #F3F3F3;
+  margin-top: 20px;
+}
+#sign-up .right{
+  padding-left: 15px;
 }
