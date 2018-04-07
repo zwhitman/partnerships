@@ -14,17 +14,10 @@
 		<link rel="stylesheet" href="src/css/custom.css">
 		<link rel="stylesheet" href="src/fonts/font-awesome/css/font-awesome.min.css">
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
 		<link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto+Condensed:700|Roboto:300" rel="stylesheet">
 	</head>
 
 	<body id="join">
-	<!-- Navigation -->
 		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
@@ -102,29 +95,23 @@
 						<br><br>
 						Tell us a little more about yourself or your organization to help us learn what your needs are as we develop these opportunities. All of your information is strictly confidential.</p>
 					</div>
-			<form>
-			<!-- left -->
-				<div class="col-md-6">
-					<div class="col-md-6 first-name">
-			    		<label>First name*</label>
-    					<input class="form-control">
-    				</div>
-    				<div class="col-md-6 last-name">
-    					<label>Last name*</label>
-    					<input class="form-control">
-    				</div>
+			<form method="get" id="the_form" accept-charset="utf-8">
+					<div class="col-md-6">
 
-    				<label>Job title*</label>
-    				<input class="form-control">
+			    	<label for="q_21641">First name*</label>
+    				<input class="form-control" type="text" name="q_21641" id="q_21641" required>
 
-    				<label>Work email address*</label>
-    				<input class="form-control">
+    				<label for="q_21661">Job title*</label>
+    				<input class="form-control" type="text" name="q_21661" id="q_21661" required>
 
-    				<label>Zip Code*</label>
-    				<input class="form-control">
+    				<label for="e">Work Email Address*</label>
+    				<input class="form-control" type="email" name="e" id="e" required>
+
+    				<label for="q_21662">Zip Code*</label>
+    				<input class="form-control" type="text" pattern="[0-9]{5}" name="q_21662" id="q_21662" title="Five Digit Zip Code" required>
 
 					<div id="privacy-act-statement">
-						<h5> Privacy Act Statement </h5>
+						<small style="font-weight:bold; color: #112E51"> PRIVACY ACT STATEMENT </small><br>
 						<small> The collection of your personal information for the U.S. Census Bureau partner website is
 						authorized under 5 U.S.C. 301 and 44 U.S.C. Section 3101.
 						The purpose of collecting this information is to provide stakeholders with email updates,
@@ -145,43 +132,43 @@
 				</div>
 
 				<div class="col-md-6 right">
-	    			<label>Organization name</label>
-    				<input class="form-control">
+	    			<label for="q_21642">Organization Name*</label>
+    				<input class="form-control" type="text" name="q_21642" id="q_21642" required>
 
-			    	<label>Reach</label>
-			    	<select class="form-control">
+			    	<label for="q_21664">Reach</label>
+			    	<select class="form-control" type="text" name="q_21664" id="q_21664">
 			    		<option value="" disabled selected>Select Reach</option>
-			      		<option>National</option>
-			     		<option>Regional</option>
-			      		<option>Local</option>
+			      		<option value="29895">National</option>
+			     		<option value="29896">Regional</option>
+			      		<option value="29918">Local</option>
 			    	</select>
 
-			    	<label>Group/Organization Type</label>
-			    	<select class="form-control">
+			    	<label for="q_21643">Group/Organization Type</label>
+			    	<select class="form-control" type="text" name="q_21643" id="q_21643">
 			      		<option value="" disabled selected>Select group/organization name</option>
-			      		<option>Corporation/Business</option>
-				      	<option>Nonprofit organization</option>
-				      	<option>Community Based Organization</option>
-				      	<option>Faith Based Organization</option>
-				      	<option>Tribal government / Tribal organization</option>
-				      	<option>Foundation</option>
-				      	<option>Educational Institution</option>
-				      	<option>Individual</option>
-				      	<option>Other (please explain)</option>
+			      		<option value="29889">Corporation or Business</option>
+				      	<option value="29890">Nonprofit organization</option>
+				      	<option value="29891">Community Based Organization</option>
+				      	<option value="29909">Faith Based Organization</option>
+				      	<option value="29892"> Tribal Government or Organization</option>
+				      	<option value="29910">Foundation</option>
+				      	<option value="29911">Educational Institution</option>
+				      	<option value="29912">Individual</option>
+				      	<option value="29913">Other</option>
 			    	</select>
 
-			    	<label>Interested in</label>
-			    	<select class="form-control">
+			    	<label for="q_21663">Interested in</label>
+			    	<select class="form-control" type="text" name="q_21663" id="q_21663">
 			    		<option value="" disabled selected>Select Interested In</option>
-			      		<option>Data / Data tools &amp; products</option>
-			      		<option>Hosting / Facilitating a workshop</option>
-			      		<option>Developer / Tech community</option>
-			      		<option>2020 Census</option>
-			      		<option>Other programs (economic/demographic)</option>
-			      		<option>General inquiry</option>
+			    		<option value="29914">2020 Census</option>
+			      		<option value="29915">Data or Data Tools and Products</option>
+			      		<option value="29916">Hosting or Facilitating a Workshop</option>
+			      		<option value="29893">Developer or Tech Community</option>
+			      		<option value="29894">Other Economic or Demographic Programs</option>
+			      		<option value="29917">General Inquiry</option>
 			    	</select>
 
-					<button type="submit" class="btn btn-default btn-primary btn-bta" id="#explore-button">Submit</button>
+					<button type="submit" value="Submit" class="btn btn-default btn-primary btn-bta" id="explore-button submit">submit</button> <p id="submission-confirmation"> Thank you for submitting your interest! </p>
 					<br>
 					<small>Please ensure you have not entered personal information such as a Social Security Number, home address, or date of birth, etc. By submitting my response, I agree to receive occasional emails from the Census Bureau per the terms of the Data Protection and Privacy Policy. </small>
 				</div>
@@ -309,5 +296,10 @@
 			}
 
 		</script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    		<script src="json2.js"></script>
+    		<script src="script_api_script.js"></script>
+            <div id='response' class='hidden'></div>
+
 	</body>
 </html>

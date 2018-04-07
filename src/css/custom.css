@@ -175,6 +175,8 @@ margin-right: 5px;
   height: 50px;
   font-size: 14px;
   padding: 0px;
+  float: left;
+  margin-right: 30px;
 }
 
 #sign-up #right{
@@ -537,7 +539,7 @@ textarea{
   width: 200px;
 }
 #privacy-act-statement{
-  height: 150px;
+  height: 160px;
   overflow-y: scroll;
   background-color: #F3F3F3;
   padding-left: 30px;
@@ -549,4 +551,10 @@ textarea{
 }
 #sign-up .right{
   padding-left: 15px;
+}
+#submission-confirmation{
+  margin-top: 20px;
+  color: #112E51;
+  font-weight: bold;
+  visibility: hidden;
 }
