@@ -558,3 +558,22 @@ textarea{
   font-weight: bold;
   visibility: hidden;
 }
+@media (max-width: 992px) {
+#sign-up button{
+  float: none;
+}
+#sign-up .right{
+    padding-left: 0px;
+}
+#submission-confirmation{
+  margin: 0px;
+}
+}
+@media (max-width: 400px) {
+#sign-up button{
+  float: none;
+}
+#sign-up .right{
+    padding-left: 15px;
+}
+}
