@@ -598,3 +598,6 @@ textarea{
   padding-right: 10px;
 }
 }
+.btn:focus {
+  outline: none;
+}

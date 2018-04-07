@@ -253,9 +253,9 @@ video#bgvid {
 	transition: background .4s;
 }
 
-.btn-bta:hover {
-  background: white;
-  color: #112E51;
+.btn-bta:hover, #join-us-button:hover, #join-button:hover, .navy-div #explore-button:hover{
+  background-color: #FF8B60;
+  color: white;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
@@ -534,6 +534,8 @@ footer #footer-links a{
 
 footer #footer-links a:hover{
   opacity: .5;
+  color: white;
+  text-decoration: none;
 }
 /* Generated with Bounce.js. Edit at https://goo.gl/jA35rf */
 
