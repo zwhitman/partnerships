@@ -363,7 +363,7 @@ video#bgvid {
 
 @media only screen and (max-width: 920px) {
   .navbar-header {
-    height: 80px;
+    height: 100px;
 
   }
 
@@ -532,6 +532,9 @@ footer #footer-links a{
   animation: animation 4500ms linear infinite both;
 }
 
+footer #footer-links a:hover{
+  opacity: .5;
+}
 /* Generated with Bounce.js. Edit at https://goo.gl/jA35rf */
 
 @-webkit-keyframes animation {

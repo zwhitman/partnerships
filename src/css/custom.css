@@ -577,3 +577,24 @@ textarea{
     padding-left: 15px;
 }
 }
+@media (max-width: 890px) {
+#main-logo {
+  margin: auto;
+  text-align: center;
+}
+}
+
+@media (max-width: 400px) {
+#main-logo {
+  margin-top: 20px;
+}
+}
+@media (min-width: 768px) and (max-width: 890px) {
+#main-logo {
+  width: 160px;
+  padding-left: 0px;
+}
+.navbar .navbar-nav{
+  padding-right: 10px;
+}
+}
