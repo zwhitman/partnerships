@@ -20,12 +20,12 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto+Condensed:700|Roboto:300" rel="stylesheet">
 	</head>
 
-	<body>
+	<body id="act-2020">
 
-	<!-- Navigation -->
-		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+	<!-- Navigation -->		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,50 +34,55 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
-		    </div>
+		      <a href="https://www.census.gov/">
+		      	<img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
+		  	  </a>		    </div>
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="index.html">Partnerships</a></li>
+				        <li><a href="index.html">About</a></li>
 					        <li class="dropdown">
-					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
-						          <ul class="dropdown-menu">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partner <span class="caret"></span></a>
+						          <ul class="dropdown-menu" id="partner-dropdown">
 							            <li><a href="learn.html">Learn</a></li>
 							            <li role="separator" class="divider"></li>
-							            <li><a href="act.html">Act</a></li>
-							            <li role="separator" class="divider"></li>
-							            <li><a href="join.html">Join</a></li>
+							            <li><a href="act.html">Engage</a></li>
 						          </ul>
 					        </li>
-				        <li class="dropdown">
-				          <a href="toolkits.html">Toolkits</a>
-				        </li>
+						<li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+						          <ul class="dropdown-menu">
+							            <li><a href="toolkits.html">Toolkits</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="workshops.html">Workshops</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="maps.html">Mapping Tools</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="https://www.census.gov/data/training-workshops.html" target="_blank">Training&nbsp;<i class="fa fas fa-external-link fa-stack-1x s-icon "></i></a> </li>
+						          </ul>
+					        </li>
 					    <li class="dropdown">
 					      <a href="2020.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">2020 <span class="caret"></span></a>
 					          <ul class="dropdown-menu">
-						            <li><a href="2020.html">Learn about 2020</a></li>
+						            <li><a href="2020.html">2020 Census</a></li>
 						            <li role="separator" class="divider"></li>
-						            <li><a href="Act-for-2020.html">Act for 2020</a></li>
+						            <li><a href="Act-for-2020.html">Get Started</a></li>
 						      </ul>
 					  	</li>
+					 <a href="join.html">
+						 <button type="button" class="btn btn-default btn-bta" id="join-button">
+								Join
+						</button>
+					</a>
 			      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-
-		<div class="blue-header-div bottom-shadow vertical-center">
+		<div class="blue-header-div bottom-shadow">
 			<div class="container container-fluid">
-				<div id="titleCard" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-					<h1>What You Can Do Now for 2020</h1>
-					<h3><a href="https://www.census.gov/programs-surveys/decennial-census/2020-census.html" target="_blank">Sign up</a> to get early updates and news around how we are planning for a complete and accurate count in 2020. You can make a difference whether you have just a second to spare or can commit to a sustained effort. </h3>
-					<p>
-						<br><a href="Act-for-2020.html#quick-wins">Quick Wins</a>
-						<br><a href="Act-for-2020.html#start-a-conversation">Start a Conversation</a>
-						<br><a href="Act-for-2020.html#get-mobilized">Get Mobilized</a>
-					<p>
-				</div>
+					<h1>What you can do now for 2020</h1>
+					<h3><a href="https://public.govdelivery.com/accounts/USCENSUS/subscriber/new" target="_blank" style="font-size: 24px;">Sign up</a> to get early updates and news around how we are planning for a complete and accurate count in 2020. You can make a difference whether you have just a second to spare or can commit to a sustained effort. </h3>
 			</div>
 		</div>
 			
@@ -89,19 +94,19 @@
 			<div class="container container-fluid">
 
 			<div>
-				<h3 class="act-header">Quick Wins</h3>
+				<h3 class="act-header" id="section-heading">Quick Wins</h3>
 				<p>Make a difference in under five minutes!</p>
 
 
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<h3 id="alternate-h3">Stay Informed</h3>
-					 		<p>Be up to date with the latest information on how we are planning to achieve a complete and accurate count in 2020. Learn about <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/news.All.html" target="_blank">news</a> and <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/library.html" target="_blank">resources</a> related to the 2020 Census.</p>
+							<h3>Stay informed</h3>
+					 		<p>Be up to date with the latest information on how we are planning to achieve a complete and accurate count in 2020. Learn about <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/news.All.html" target="_blank">news</a> and <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/planning-management.html" target="_blank">resources</a> related to the 2020 Census.</p>
 						 </div>
 
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-			 				<h3 id="alternate-h3">Share why the census matters</h3>
-			 				<p>Download and share this Census 101 infographic. Check out the <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/library.html" target="_blank">2020 Census Library</a> — an online collection of infographics, photos, publications, videos you can share. </p>
+			 				<h3>Share why the census matters</h3>
+			 				<p><a href="census101.pdf">Download and share this Census 101 infographic.</a> Check out the <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/library.html" target="_blank">2020 Census Library</a> — an online collection of infographics, photos, publications, videos you can share. </p>
 						</div>
 					</div>
 			</div>
@@ -109,21 +114,21 @@
 	</div>
 
 	<!-- Start a Conversation -->
-		<div id="start-a-conversation" class="white-div bottom-shadow">
+		<div id="start-a-conversation" class="white-div bottom-shadow navy-div">
 			<div class="container container-fluid">
 			<div>
-				<h3 class="act-header">Start a Conversation</h3>
-				<p>Have a little more time? Start making connections to engage your stakeholders, constituents and community.</p>
+				<h3 class="act-header" id="section-heading">Start a Conversation</h3>
+				<p class="narrow">Have a little more time? Start making connections to engage your stakeholders, constituents and community.</p>
 
 					<div class="row">
 			 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-			 				<h3 id="alternate-h3">Spread the word</h3>
+			 				<h3>Spread the word</h3>
 			 				<p>Communicate <a href="https://www.census.gov/programs-surveys/decennial-census/about/why.html" target="_blank">why the census is important</a> and the <a href="https://www.census.gov/programs-surveys/decennial-census/about.html" target="_blank">impact</a> of participating to your stakeholders and community members.</p>
 
 			 			</div>
 						
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<h3 id="alternate-h3">Get census outreach on your agenda</h3>
+							<h3>Get census outreach on your agenda</h3>
 							<p>Talk about the 2020 Census at your next board meeting, in your newsletter, on your blog, and at your events. Here are a few <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/planning-management.html" target="_blank">resources</a> to get started.</p>
 
 						</div>
@@ -137,29 +142,23 @@
 		<div id="get-mobilized" class="white-div bottom-shadow">
 			<div class="container container-fluid">
 			<div>
-				<h3 class="act-header">Get Mobilized</h3>
-				<p>If you are committed to a complete and accurate count, get mobilized in your community or organization to become a part of the effort.</p>
+				<h3 class="act-header" id="section-heading">Get Mobilized</h3>
+				<p class="narrow">If you are committed to a complete and accurate count, get mobilized in your community or organization to become a part of the effort.</p>
 
-					<div class="row">
-			 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-			 				<h3 id="alternate-h3">Start or Join a Complete Count Committee</h3>
-			 				<p>Connect with a Census Bureau representative in your area to find out how to build a team that can support a complete and accurate count. </p>
+					<div class="row mobile-padded">
+			 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 not-padded">
+			 				<h3>Start or join a Complete Count Committee</h3>
+			 				<p>Form a team to help plan and support locally based outreach campaigns to raise awareness of the census and drive participation. <a href="join.html">Connect</a> with a local representative to learn more. </p>
 
 			 			</div>
 
-			 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-			 				<h3 id="alternate-h3">Tune In</h3>
-			 				<p>Join us during our quarterly 2020 Census Program Management Reviews
-			 				(PMRs / CSACs)
+			 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 not-padded">
+			 				<h3>Tune in</h3>
+			 				<p>Join our quarterly <a href="https://www.census.gov/programs-surveys/decennial-census/2020-census/planning-management/program-briefings.html" target="_blank">Program Management Reviews</a> update plans, tests, schedules, budgets and strategies to deliver a successful, cost-effective <a href="https://www.census.gov/2020census">2020 Census</a>.
 			 				</p>
 
 			 			</div>
 						
-			 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-			 				<h3 id="alternate-h3">Support <a href="https://www.census.gov/geo/partnerships/luca.html" target="_blank">LUCA</a></h3>
-			 				<p>Join the only opportunity prior to the 2020 Census for tribal, state, and local governments to review and update the U.S. Census Bureau’s residential address list. The goal is to count everyone once, only once, and in the right place.</p>
-
-			 			</div>
 					</div>
 			</div>
 		</div>
@@ -259,17 +258,6 @@
 		      }
 		    }
 		  });
-
-			window.onscroll = function() {
-				// might have an ie issue -- double check
-				var y = window.pageYOffset;
-				if (y>250) {
-					$("#main-logo").css({"margin-top":"0px"})
-				}
-				if (y==0) {
-					$("#main-logo").css({"margin-top":"0px"})
-				}
-			}
 
 		</script>
 	</body>

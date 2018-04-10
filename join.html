@@ -14,16 +14,10 @@
 		<link rel="stylesheet" href="src/css/custom.css">
 		<link rel="stylesheet" href="src/fonts/font-awesome/css/font-awesome.min.css">
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto+Condensed:700|Roboto:300" rel="stylesheet">
 	</head>
 
-	<body>
-	<!-- Navigation -->
+	<body id="join">
 		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
@@ -33,50 +27,60 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
+		      <a href="https://www.census.gov/">
+		      	<img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
+		  	  </a>
 		    </div>
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="index.html">Partnerships</a></li>
+				        <li><a href="index.html">About</a></li>
 					        <li class="dropdown">
-					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
-						          <ul class="dropdown-menu">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partner <span class="caret"></span></a>
+						          <ul class="dropdown-menu" id="partner-dropdown">
 							            <li><a href="learn.html">Learn</a></li>
 							            <li role="separator" class="divider"></li>
-							            <li><a href="act.html">Act</a></li>
-							            <li role="separator" class="divider"></li>
-							            <li><a href="join.html">Join</a></li>
+							            <li><a href="act.html">Engage</a></li>
 						          </ul>
 					        </li>
-				        <li class="dropdown">
-				          <a href="toolkits.html">Toolkits</a>
-				        </li>
+						<li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+						          <ul class="dropdown-menu">
+							            <li><a href="toolkits.html">Toolkits</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="workshops.html">Workshops</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="maps.html">Mapping Tools</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="https://www.census.gov/data/training-workshops.html" target="_blank">Training&nbsp;<i class="fa fas fa-external-link fa-stack-1x s-icon "></i></a> </li>
+						          </ul>
+					        </li>
 					    <li class="dropdown">
 					      <a href="2020.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">2020 <span class="caret"></span></a>
 					          <ul class="dropdown-menu">
-						            <li><a href="2020.html">Learn about 2020</a></li>
+						            <li><a href="2020.html">2020 Census</a></li>
 						            <li role="separator" class="divider"></li>
-						            <li><a href="Act-for-2020.html">Act for 2020</a></li>
+						            <li><a href="Act-for-2020.html">Get Started</a></li>
 						      </ul>
 					  	</li>
+					 <a href="join.html">
+						 <button type="button" class="btn btn-default btn-bta" id="join-button">
+								Join
+						</button>
+					</a>
 			      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-
-
-		<div class="blue-header-div bottom-shadow vertical-center">
-			<div class="container container-fluid">
-				<div id="titleCard" class="col-md-6">
+		<div class="blue-header-div bottom-shadow">
+			<div class="container">
 					<h1>
 						Join
 					</h1>
 					<h3>
-						Sign up here to stay up to date with new resources and opportunities to partner with the Census Bureau.
+						Sign up here to stay up to date with new resources and opportunities to partner with the U.S. Census Bureau.
 					</h3>
-				</div>
 			</div>
 		</div>
 
@@ -86,84 +90,100 @@
 				<h3 id="section-heading">
 					Sign Up
 				</h3>
-					<div>
-						<p>Thank you for your interest in collaborating with the U.S. Census Bureau! By signing up here, you are signaling your interest in partnership opportunities as we get closer to 2020.
+					<div class="narrow" style="margin-bottom: 40px">
+						<p>Thank you for your interest in collaborating with the Census Bureau! By signing up, you are showing your interest in partnership opportunities as we get closer to 2020. 
 						<br><br>
-						Tell us a little more about yourself or your organization to help us learn what your needs are as we develop these opportunities. All your information will be kept strictly confidential.</p>
+						Tell us a little more about yourself or your organization to help us learn what your needs are as we develop these opportunities. All of your information is strictly confidential.</p>
 					</div>
-<!-- left -->
-			<form class="col-md-6">
-			  <div class="form-group">
-			    	<div class="col-md-6">
-			    		<label for="exampleInputEmail1">Your first name*</label>
-    					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    				</div>
-    				<div class="col-md-6 last-name">
-    					<label for="exampleInputEmail1">Your last name*</label>
-    					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    				</div>
-
-    				<div>
-    					<label for="exampleInputEmail1">Your job title*</label>
-    					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    				</div>
-
-    				<div>
-    					<label for="exampleInputEmail1">Organization name</label>
-    					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    				</div>
-
-    				<label for="exampleFormControlInput1">Your work email address*</label>
-			    		<input type="email" class="form-control" id="exampleFormControlInput1">
-
-			    	<div>
-    					<label for="exampleInputEmail1">Zip Code*</label>
-    					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    				</div>
-			  </div>
-
-			</form>
-
-<!-- right -->
-			<form class="col-md-6" id="right">
-			  <div class="form-group">
-			    <label for="exampleFormControlSelect1">Group/Organization Type</label>
-			    <select class="form-control" id="exampleFormControlSelect1">
-			      <option value="" disabled selected>Select group/organization name</option>
-			      <option>Corporation/Business</option>
-			      <option>Nonprofit organization</option>
-			      <option>Community Based Organization</option>
-			      <option>Faith Based Organization</option>
-			      <option>Tribal government / Tribal organization</option>
-			      <option>Foundation</option>
-			      <option>Educational Institution</option>
-			      <option>Individual</option>
-			      <option>Other (please explain)</option>
-			    </select>
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleFormControlSelect1">Interested in</label>
-			    <select class="form-control" id="exampleFormControlSelect1">
-			    <option value="" disabled selected>Select Interested In</option>
-			      <option>Data / Data tools &amp; products</option>
-			      <option>Hosting / Facilitating a workshop</option>
-			      <option>Developer / Tech community</option>
-			      <option>2020 Census</option>
-			      <option>Other programs (economic/demographic)</option>
-			      <option>General inquiry</option>
-			    </select>
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleFormControlTextarea1">Please leave any additional comments here</label>
-			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-			    <button type="submit" class="btn btn-default btn-primary">Submit</button><br>
-			    <small>By submitting my response, I agree to receive occasional emails from the Census Bureau per the terms of the Data Protection and Privacy Policy.</small>
-			  </div>
-			</form>
-
+			<div id="submission-confirmation">
+				<div style="font-size:2.5em; color:black; padding: 7px">
+					<img src="src/img/check.png">
+				</div>
+				<h6> Submission Succcess </h6>
+				<p> Thank you for submitting your interest! </p>
 			</div>
+			<form method="get" id="the_form" accept-charset="utf-8">
+					<div class="col-md-6">
+
+			    	<label for="q_70676">First name*</label>
+    				<input class="form-control" type="text" name="q_70676" id="q_70676" required>
+
+    				<label for="q_70697">Job title*</label>
+    				<input class="form-control" type="text" name="q_70697" id="q_70697" required>
+
+    				<label for="e">Work Email Address*</label>
+    				<input class="form-control" type="email" name="e" id="e" required>
+
+    				<label for="q_70678">Zip Code*</label>
+    				<input class="form-control" type="text" pattern="[0-9]{5}" name="q_70678" id="q_70678" title="Five Digit Zip Code" required>
+				</div>
+
+				<div class="col-md-6 right">
+	    			<label for="q_70677">Organization Name*</label>
+    				<input class="form-control" type="text" name="q_70677" id="q_70677" required>
+
+			    	<label for="q_70698">Reach</label>
+			    	<select class="form-control" type="text" name="q_70698" id="q_70698">
+			    		<option value="" disabled selected>Select Reach</option>
+			      		<option value="211147">National</option>
+			     		<option value="211148">Regional</option>
+			      		<option value="211149">Local</option>
+			    	</select>
+
+			    	<label for="q_70679">Group/Organization Type</label>
+			    	<select class="form-control" type="text" name="q_70679" id="q_70679">
+			      		<option value="" disabled selected>Select group/organization name</option>
+			      		<option value="211136">Corporation or Business</option>
+				      	<option value="211137">Nonprofit organization</option>
+				      	<option value="211138">Community Based Organization</option>
+				      	<option value="211139">Faith Based Organization</option>
+				      	<option value="211140"> Tribal Government or Organization</option>
+				      	<option value="211079">Foundation</option>
+				      	<option value="211141">Educational Institution</option>
+				      	<option value="211080">Individual</option>
+				      	<option value="211081">Other</option>
+			    	</select>
+
+			    	<label for="q_70680">Interested in</label>
+			    	<select class="form-control" type="text" name="q_70680" id="q_70680">
+			    		<option value="" disabled selected>Select Interested In</option>
+			    		<option value="211142">2020 Census</option>
+			      		<option value="211082">Data or Data Tools and Products</option>
+			      		<option value="211143">Hosting or Facilitating a Workshop</option>
+			      		<option value="211144">Developer or Tech Community</option>
+			      		<option value="211145">Other Economic or Demographic Programs</option>
+			      		<option value="211146">General Inquiry</option>
+			    	</select>
+					</div>
+				<div class="col-md-6">
+					<div id="privacy-act-statement">
+						<small style="font-weight:bold; color: #112E51"> PRIVACY ACT STATEMENT </small><br>
+						<small> The collection of your personal information for the U.S. Census Bureau partner website is
+						authorized under 5 U.S.C. 301 and 44 U.S.C. Section 3101.
+						The purpose of collecting this information is to provide stakeholders with email updates,
+						resources, U.S. Census Bureau information and to establish an avenue for collaboration between
+						the U.S. Census Bureau and interested stakeholder organizations and/or partners. Personally
+						identifiable information such as name, organization name, job title, work email address, and zip
+						code may be collected. </small>
+						<small> Disclosure of this information is permitted under the Privacy Act of 1974 (5 U.S.C. Section
+						552a) to be shared among Census Bureau staff for work-related purposes. Disclosure of this
+						information is also subject to all of the published routine uses as identified in the Privacy Act
+						System of Records Notice COMMERCE/DEPT-19, Department Mailing Lists.
+						Providing this information is voluntary and you may be removed from the Partnership email
+						sign-up at any time. Failure to provide this information may affect the U.S. Census Bureau’s
+						ability to disseminate information to stakeholder organizations including information about the
+						2020 Census, information about other programs and surveys, data products and data tools, and
+						other resources. </small>
+					</div>
+</div>
+				<div class="col-md-6 right">
+					<button type="submit" value="Submit" class="btn btn-default btn-primary btn-bta" id="explore-button submit">submit</button>
+					<br>
+					<small>Please ensure you have not entered personal information such as a Social Security Number, home address, or date of birth, etc. By submitting my response, I agree to receive occasional emails from the Census Bureau per the terms of the Data Protection and Privacy Policy. </small>
+				</div>
+			</form>
 		</div>
+	</div>
 			
 			
 		</div>
@@ -172,9 +192,9 @@
 		<div id="next-toolkits" class="grey-div bottom-shadow text-center">
 			<div class="container container-fluid">
 				<h3> 
-					Next: <a href="toolkits.html">Resources</a>
+					Next: <a href="toolkits.html" style="text-decoration: underline">Toolkit</a>
 				</h3>
-				<p>Only got a second? <br> Support a complete and accurate count by <a href="#">sharing this page.</a></p>
+				<p>Only got a second? <br> Support a complete and accurate count by <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.census.gov/partners/"><u>sharing this website.</u></a></p>
 
 			</div>
 		</div>
@@ -272,18 +292,11 @@
 		      }
 		    }
 		  });
-
-			window.onscroll = function() {
-				// might have an ie issue -- double check
-				var y = window.pageYOffset;
-				if (y>250) {
-					$("#main-logo").css({"margin-top":"0px"})
-				}
-				if (y==0) {
-					$("#main-logo").css({"margin-top":"0px"})
-				}
-			}
-
 		</script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    		<script src="json2.js"></script>
+    		<script src="script_api_script.js"></script>
+            <div id='response' class='hidden'></div>
+
 	</body>
 </html>

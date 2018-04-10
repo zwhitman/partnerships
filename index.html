@@ -20,9 +20,10 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto+Condensed:700|Roboto:300" rel="stylesheet">
 	</head>
 
-	<body>
+	<body id="about">
 	<!-- Navigation -->
 		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 		  <div class="container-fluid">
@@ -33,38 +34,51 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
+		      <a href="https://www.census.gov/">
+		      	<img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
+		  	  </a>
 		    </div>
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="index.html">Partnerships</a></li>
+				        <li><a href="index.html">About</a></li>
 					        <li class="dropdown">
-					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
-						          <ul class="dropdown-menu">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partner <span class="caret"></span></a>
+						          <ul class="dropdown-menu" id="partner-dropdown">
 							            <li><a href="learn.html">Learn</a></li>
 							            <li role="separator" class="divider"></li>
-							            <li><a href="act.html">Act</a></li>
-							            <li role="separator" class="divider"></li>
-							            <li><a href="join.html">Join</a></li>
+							            <li><a href="act.html">Engage</a></li>
 						          </ul>
 					        </li>
-				        <li class="dropdown">
-				          <a href="toolkits.html">Toolkits</a>
-				        </li>
+						<li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+						          <ul class="dropdown-menu">
+							            <li><a href="toolkits.html">Toolkits</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="workshops.html">Workshops</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="maps.html">Mapping Tools</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="https://www.census.gov/data/training-workshops.html" target="_blank">Training&nbsp;<i class="fa fas fa-external-link fa-stack-1x s-icon "></i></a> </li>
+						          </ul>
+					        </li>
 					    <li class="dropdown">
 					      <a href="2020.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">2020 <span class="caret"></span></a>
 					          <ul class="dropdown-menu">
-						            <li><a href="2020.html">Learn about 2020</a></li>
+						            <li><a href="2020.html">2020 Census</a></li>
 						            <li role="separator" class="divider"></li>
-						            <li><a href="Act-for-2020.html">Act for 2020</a></li>
+						            <li><a href="Act-for-2020.html">Get Started</a></li>
 						      </ul>
 					  	</li>
+					 <a href="join.html">
+						 <button type="button" class="btn btn-default btn-bta" id="join-button">
+								Join
+						</button>
+					</a>
 			      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-
 
 
 		<div class="jumbotron bottom-shadow vertical-center">
@@ -76,23 +90,26 @@
 					<h1 class="h1-merriweather">
 						Measuring America:
 						<br>
-						People, Places, and Economy
+						People, Places, and the Economy
 					</h1>
 					<h3>
 						Partner with the U.S. Census Bureau to help America work better through data
+
 					</h3>
 				</div>
 
 				<div class="col-xs-12">
-					<button type="button" class="btn btn-default btn-bta">
-						Join Us
-					</button>
+					<a href="join.html">
+						<button type="button" class="btn btn-default btn-bta" id="join-us-button" style="margin-top: 40px;">
+							Join Us
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
 
 		<div id="icon-target">
-			<a href="#learn">
+			<a href="#learn" id="animated-arrows">
 				<i class="animation-target fa  fa-angle-double-down fa-stack-2x"></i>
 			</a>
 		</div>
@@ -103,22 +120,16 @@
 					Why Partner?
 				</h3>
 
-				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/CensusIllustration_Website-Participation.png" height="201" alt="lighbulb icon">
+				<div class="col-md-6">
+					<img src="./src/img/CensusIllustration_Website-Participation.png" height="201" alt="lighbulb icon">
 					<h3>Increase participation</h3>
-					<p>Raise awareness to ensure your constituents, customers, and stakeholders are represented in vital Census Bureau <a href="https://www.census.gov/programs-surveys.html" target="_blank">household and business surveys</a>.</p>
+					<p>Raise awareness to ensure that your constituents, customers and stakeholders are represented in vital U.S. Census Bureau <a href="https://www.census.gov/programs-surveys.html" target="_blank">household and business surveys</a>.</p>
 				</div>
 
-				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/CensusIllustration_Website_Lightbulb.png" height="201" alt="lighbulb icon">
-					<h3>Make the Census Bureau work for you</h3>
-					<p>Learn how to use our many <a href="https://www.census.gov/data/data-tools.html" target="_blank">data tools</a>, get advice from our data trainers, and contribute to new tools that improve business, policy, and American lives.</p>
-				</div>
-
-				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/CensusIllustration_Website_DataLaptop.png" height="201" alt="lighbulb icon">
-					<h3>Support high-quality data</h3>
-					<p>Engage with a wide range of programs and data to support the Census Bureau as America's leading source of quality data about the nation's people, places, and economy. </p>
+				<div class="col-md-6">
+					<img src="./src/img/CensusIllustration_Website_Lightbulb.png" height="201" alt="lighbulb icon">
+					<h3>Make the Census Bureau work for you and your community</h3>
+					<p>Learn how to use our many  <a href="https://www.census.gov/data/data-tools.html" target="_blank">data tools and products</a>, get advice from our data trainers, and contribute to new tools that improve business, policy and American lives.</p>
 				</div>
 
 			</div>
@@ -127,7 +138,7 @@
 		<div class="blue-div bottom-shadow">
 			<div class="container container-fluid">
 				<p>
-					From corporations to policymakers, foundations and nonprofits to software developers — we partner across sectors and industries.
+					From corporations to policymakers, foundations and nonprofits to software developers, we partner across sectors and industries.
 				</p>
 			</div>
 		</div>
@@ -138,326 +149,33 @@
 					How to Partner
 				</h3>
 				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/CensusIllustration_Website_Residents.png" height="201" alt="lighbulb icon">
-					<h3>Join the effort</h3>
-					<p><a href="">Sign up</a> to get early updates and resources for supporting a complete and accurate count in 2020.</p>
+					<img src="./src/img/CensusIllustration_Website_JoinMailing.png" height="201" alt="lighbulb icon">
+					<h3>Join our mailing list</h3>
+					<p><a href="join.html">Sign up</a> here to get updates for supporting current Census Bureau efforts and programs.</p>
 				</div>
 
 				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/CensusIllustration_Website_Ideation.png" height="201" alt="lighbulb icon">
+					<img src="./src/img/CensusIllustration_Website_Ideation.png" height="201" alt="lighbulb icon">
 					<h3>Take action</h3>
-					<p>We’ve outlined <a href="act.html">a few simple ways</a> you can start engaging with the Census Bureau — even if you only have five minutes.</p>
+					<p>We have outlined <a href="act.html">a few simple ways</a>  you can start engaging with the Census Bureau, even if you only have five minutes.</p>
 				</div>
 
 				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/CensusIllustration_Website_Toolkit.png" height="201" alt="lighbulb icon">
-					<h3>Use our toolkits</h3>
-					<p>We have <a href="toolkits.html">science-backed tools</a> and best practices to help you increase participation in Census Bureau surveys and increasing data awareness.</p>
+					<img src="./src/img/CensusIllustration_Website_Toolkit.png" height="201" alt="lighbulb icon">
+					<h3>Use our tools and resources</h3>
+					<p>We have <a href="toolkits.html">tools and best practices</a> to help you increase participation in Census Bureau surveys and to increase data awareness.</p>
 				</div>
 			</div>
 		</div>
 
-
- 		<div class="blue-div bottom-shadow">
-			<div class="container container-fluid">
-				<p>
-					We're counting on you! Help us build the partnership experience — send us your thoughts and feedback at <a href="mailto:census.partners@census.gov">census.partners@census.gov.</a>
-				</p>
-			</div>
-		</div> 
-
-		<div id="census-101" class="white-div bottom-shadow">
-
-			<div class="container container-fluid">
-				<h3 id="section-heading">
-					Census 101
-				</h3>
-				<p>Get a quick refresher on the the importance of the census.</p>
-
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					  <!-- Indicators -->
-					  <ol class="carousel-indicators">
-					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					    <li data-target="#myCarousel" data-slide-to="1"></li>
-					  </ol>
-
-					  <!-- Wrapper for slides -->
-				<div class="carousel-inner">
-					  <!--   <div class="item active">
-								<iframe width="100%" height="450" src="https://www.youtube.com/embed/4VJ-pfm3nrE" frameborder="0" allowfullscreen></iframe>
-					    </div> -->
-					<div class="item active">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="overlay-box">
-							            <div class="share-overlay">
-							                <span>
-							                <h3> Share </h3>
-							                <a class="" href="mailto:census.partners@census.gov" target="_blank">
-								  				<i class="fa fa-envelope fa-2x"></i>
-											</a>
-											<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
-										  		<i class="fa fa-facebook fa-2x"></i>
-											</a>
-											<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
-										  		<i class="fa fa-twitter fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-download fa-2x"></i>
-											</a>
-											<br>
-											<a class="" href="#">
-										  		<i class="fa fa-instagram fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-pinterest fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-snapchat fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-youtube-square fa-2x"></i>
-											</a>
-							                </span>
-							         </div>
-								<img class="img img-responsive" src="./src/img/Census101_Graphic_Representation.png" alt="pen icon">
-        						</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="overlay-box">
-							            <div class="share-overlay">
-							                <span>
-							                <h3> Share </h3>
-							                <a class="" href="mailto:census.partners@census.gov" target="_blank">
-								  				<i class="fa fa-envelope fa-2x"></i>
-											</a>
-											<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
-										  		<i class="fa fa-facebook fa-2x"></i>
-											</a>
-											<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
-										  		<i class="fa fa-twitter fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-download fa-2x"></i>
-											</a>
-											<br>
-											<a class="" href="#">
-										  		<i class="fa fa-instagram fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-pinterest fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-snapchat fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-youtube-square fa-2x"></i>
-											</a>
-							                </span>
-							         </div>
-								<img class="img img-responsive" src="./src/img/Census101_Graphic_CivicDuty.png" alt="lighbulb icon">
-								</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="overlay-box">
-							            <div class="share-overlay">
-							                <span>
-							                <h3> Share </h3>
-							                <a class="" href="mailto:census.partners@census.gov" target="_blank">
-								  				<i class="fa fa-envelope fa-2x"></i>
-											</a>
-											<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
-										  		<i class="fa fa-facebook fa-2x"></i>
-											</a>
-											<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
-										  		<i class="fa fa-twitter fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-download fa-2x"></i>
-											</a>
-											<br>
-											<a class="" href="#">
-										  		<i class="fa fa-instagram fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-pinterest fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-snapchat fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-youtube-square fa-2x"></i>
-											</a>
-							                </span>
-							         </div>
-								<img class="img img-responsive" src="./src/img/Census101_Graphic_400billion.png" alt="textbook icon">
-							</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="overlay-box">
-							            <div class="share-overlay">
-							                <span>
-							                <h3> Share </h3>
-							                <a class="" href="mailto:census.partners@census.gov" target="_blank">
-								  				<i class="fa fa-envelope fa-2x"></i>
-											</a>
-											<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
-										  		<i class="fa fa-facebook fa-2x"></i>
-											</a>
-											<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
-										  		<i class="fa fa-twitter fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-download fa-2x"></i>
-											</a>
-											<br>
-											<a class="" href="#">
-										  		<i class="fa fa-instagram fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-pinterest fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-snapchat fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-youtube-square fa-2x"></i>
-											</a>
-							                </span>
-							         </div>
-								<img class="img img-responsive" src="./src/img/Census101_Graphic_Redistricting.png" alt="textbook icon">
-								</div>
-							</div>
-
-							<div class="col-md-4 ">
-								<div class="overlay-box">
-							            <div class="share-overlay">
-							                <span>
-							                <h3> Share </h3>
-							                <a class="" href="mailto:census.partners@census.gov" target="_blank">
-								  				<i class="fa fa-envelope fa-2x"></i>
-											</a>
-											<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
-										  		<i class="fa fa-facebook fa-2x"></i>
-											</a>
-											<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
-										  		<i class="fa fa-twitter fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-download fa-2x"></i>
-											</a>
-											<br>
-											<a class="" href="#">
-										  		<i class="fa fa-instagram fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-pinterest fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-snapchat fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-youtube-square fa-2x"></i>
-											</a>
-							                </span>
-							         </div>
-								<img class="img img-responsive" src="./src/img/Census101_Graphic_EveryoneCounts.png" alt="textbook icon">
-							</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="overlay-box">
-							            <div class="share-overlay">
-							                <span>
-							                <h3> Share </h3>
-							                <a class="" href="mailto:census.partners@census.gov" target="_blank">
-								  				<i class="fa fa-envelope fa-2x"></i>
-											</a>
-											<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
-										  		<i class="fa fa-facebook fa-2x"></i>
-											</a>
-											<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
-										  		<i class="fa fa-twitter fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-download fa-2x"></i>
-											</a>
-											<br>
-											<a class="" href="#">
-										  		<i class="fa fa-instagram fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-pinterest fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-snapchat fa-2x"></i>
-											</a>
-											<a class="" href="#">
-										  		<i class="fa fa-youtube-square fa-2x"></i>
-											</a>
-							                </span>
-							         </div>
-								<img class="img img-responsive" src="./src/img/Census101_Graphic_YouCanHelp.png" alt="textbook icon">
-							</div>
-							</div>
-						</div>
-					</div>
-				</div>
-					  </div>
-					
-
-			<br>
-			<p>Spread the word! <br/>
-			Download and share Census 101 with your community.</p>
-
-							<a class="" href="#" target="_blank">
-								<span class="fa-stack social">
-								  <i class="fa fa-circle fa-stack-2x b-icon"></i>
-								  <i class="fa fa-download fa-stack-1x s-icon"></i>
-								</span>
-							</a>
-						
-							<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
-								<span class="fa-stack social">
-								  <i class="fa fa-circle fa-stack-2x b-icon"></i>
-								  <i class="fa fa-facebook fa-stack-1x s-icon"></i>
-								</span>
-							</a>
-
-							<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
-								<span class="fa-stack social">
-								  <i class="fa fa-circle fa-stack-2x b-icon"></i>
-								  <i class="fa fa-twitter fa-stack-1x s-icon"></i>
-								</span>
-							</a>
-
-							<a class="" href="mailto:census.partners@census.gov" target="_blank">
-								<span class="fa-stack social">
-								  <i class="fa fa-circle fa-stack-2x b-icon"></i>
-								  <i class="fa fa-envelope fa-stack-1x s-icon"></i>
-								</span>
-							</a>
-
-
-
-			</div>
-		</div>
-
-
-		<div id="studies" class="white-div bottom-shadow">
+		
+		<div id="studies" class="white-div bottom-shadow navy-div">
 				<div class="container container-fluid text-center">
 					<h3 id="section-heading">
 						Stats in Action 
 					</h3>
-					<p class="col-md-8 col-md-offset-2">
-						See how people are using Census Bureau data around the country.
+					<p class="col-md-12">
+						See how people are using census data around the country.
 					</p>
 				</div>
 
@@ -502,8 +220,8 @@
 				<h3 id="section-heading"> 
 					Get In Touch
 				</h3>
-				<h3>We’re counting on you!</h3>
-				<p>Help us build the partnership experience by <a href="join.html">sharing your interests</a><br> or sending feedback to <a href="">census.partners@census.gov</a>.</p>
+				<h3 id="counting-on-you">We are counting on you!</h3>
+				<p>Help us build the partnership experience by <a href="join.html">sharing your interests</a><br> or sending feedback to <a href="mailto:census.partners@census.gov">census.partners@census.gov</a>.</p>
 
 			</div>
 		</div>
@@ -511,9 +229,9 @@
 		<div id="next-learn" class="grey-div bottom-shadow text-center">
 			<div class="container container-fluid">
 				<h3> 
-					Next: <a href="learn.html">Learn</a>
+					Next: <a href="learn.html" style="text-decoration: underline">Learn</a>
 				</h3>
-				<p>Only got a second? <br> Support a complete and accurate count by <a href="#">sharing this page.</a></p>
+				<p>Only got a second? <br> Support a complete and accurate count by <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.census.gov/partners/"><u>sharing this website.</u></a></p>
 
 			</div>
 		</div>
@@ -611,17 +329,6 @@
 		      }
 		    }
 		  });
-
-			window.onscroll = function() {
-				// might have an ie issue -- double check
-				var y = window.pageYOffset;
-				if (y>250) {
-					$("#main-logo").css({"margin-top":"0px"})
-				}
-				if (y==0) {
-					$("#main-logo").css({"margin-top":"0px"})
-				}
-			}
 
 		</script>
 	</body>
