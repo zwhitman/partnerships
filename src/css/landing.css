@@ -1,92 +1,7 @@
-@font-face {
-    font-family: 'Merriweather';
-    font-style: bold;
-    src: local('Merriweather'), local('Merriweather'), url(../fonts/Merriweather/Merriweather-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Merriweather';
-    font-style: bolder;
-    src: local('Merriweather'), local('Merriweather'), url(../fonts/Merriweather/Merriweather-Black.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Merriweather';
-    font-style: italic;
-    src: local('Merriweather'), local('Merriweather'), url(../fonts/Merriweather/Merriweather-BoldItalic.ttf) format('truetype');
-}
-/*
-@font-face {
-    font-family: 'SourceSansPro';
-    font-style: normal;
-    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'SourceSansPro';
-    font-style: bold;
-    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'SourceSansPro';
-    font-style: italic;
-    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'SourceSansPro';
-    font-style: lighter;
-    src: local('Source Sans Pro'), local('Source Sans Pro'), url(../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf) format('truetype');
-}*/
-
-@font-face {
-    font-family: 'source_sans_prolight';
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.eot');
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.woff2') format('woff2'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.woff') format('woff'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'source_sans_probold';
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.eot');
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.woff2') format('woff2'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.woff') format('woff'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'source_sans_proitalic';
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.eot');
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.woff2') format('woff2'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.woff') format('woff'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-italic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'source_sans_proextralight';
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.eot');
-    src: url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.woff') format('woff'),
-         url('../fonts/Source-Sans-Pro/sourcesanspro-extralight-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
 body {
   /*font-family: Source Sans Pro, sans-serif;*/
-  font-family: 'source_sans_prolight';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .content {
@@ -105,11 +20,11 @@ h1 {
 }
 
 h4 {
-  color: #1279bc;
+  color: #112E51;
   margin: 75px 25px 25px 25px;
   font-size: 24px;
-  font-family: Merriweather, serif;
-  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 .underline {
@@ -117,15 +32,16 @@ h4 {
   display: inline-block;
   line-height: 0.85;
   text-shadow:
-    2px 2px #1279bc,
-    2px -2px #1279bc,
-    -2px 2px #1279bc,
-    -2px -2px #1279bc;
+    2px 2px #112E51,
+    2px -2px #112E51,
+    -2px 2px #112E51,
+    -2px -2px #112E51;
 }
 
 .h1-merriweather {
-  font-family: Merriweather, serif;
-  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .carousel-indicators li {
@@ -152,16 +68,29 @@ h4 {
   text-transform:none;
 }
 
+#studies h3{
+  margin-bottom: 32px;
+}
+
+#studies p{
+  margin-bottom: 32px;
+}
+
 #titleCard > h1 {
   color:white;
-  font-size:60px;
+  font-size:48px;
   padding-top:100px;
+  font-weight: 800;
+  line-height: 48px;
 }
 
 #titleCard > h3 {
   color:white;
   margin-top:50px;
   font-size:24px;
+  max-width: 450px;
+  margin: auto;
+  line-height: 34px;
 }
 
 .bottom-shadow {
@@ -187,9 +116,9 @@ h4 {
 }
 
 .navbar-default .navbar-nav>li>a {
-  font-family: 'source_sans_probold';
+  color: #0095A8;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
-  color: #1279bc;
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
 	transition: color .4s;
 }
@@ -241,7 +170,7 @@ h4 {
 }
 
 .s-icon {
-  color: #1279bc;
+  color: #112E51;
 	-webkit-transition: color .4s, -webkit-transform .4s; /* Safari */
 	transition: color .4s;
 }
@@ -251,7 +180,7 @@ h4 {
 }
 
 .fa-stack:hover {
-  color: #1279bc;
+  color: #112E51;
 }
 
 #video-background{
@@ -270,7 +199,7 @@ h4 {
 }
 
 footer {
-  background-color:#1279bc;
+  background-color:#112E51;
   padding:10px 30px 30px 30px;
 }
 
@@ -295,7 +224,7 @@ video#bgvid {
 
 .btn-cta{
   font-size: 2em;
-  color: #1279bc;
+  color: #112E51;
   opacity: .9;
   border: none;
   background: white;
@@ -307,27 +236,26 @@ video#bgvid {
 
 .btn-cta:hover {
   color: white;
-  background: #1279bc;
+  background: #112E51;
 }
 
 .btn-bta{
   font-size: 1.5em;
   letter-spacing: 3px;
-  background: #1279bc;
-  border: solid 1px #1279bc;
+  background: #112E51;
+  border: solid 1px #112E51;
   color: white;
   /*font-weight: bold;*/
-  font-family:'source_sans_probold';
+  font-family: 'Roboto Condensed', sans-serif;
   padding:20px 50px ;
   margin-top:50px;
 	-webkit-transition: background .4s, -webkit-transform .4s; /* Safari */
 	transition: background .4s;
 }
 
-.btn-bta:hover {
-  background: white;
-  color: #1279bc;
-  border: solid 1px #1279bc;
+.btn-bta:hover, #join-us-button:hover, #join-button:hover, .navy-div #explore-button:hover{
+  background-color: #FF8B60;
+  color: white;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
@@ -353,13 +281,20 @@ video#bgvid {
 .navbar-nav > li > a {
 	text-transform: uppercase;
   letter-spacing: 3px;
-  color: #1279bc;
+  color: #112E51;
+}
+
+.navbar-fixed-top{
+  margin-bottom: 0;
+  background-color: white;
 }
 
 #main-logo {
   padding:20px 0;
 	-webkit-transition: margin-top .4s, -webkit-transform .4s; /* Safari */
 	transition: margin-top .4s;
+  width: 222px;
+  padding-left: 60px;
 }
 
 .fa-stack {
@@ -367,17 +302,18 @@ video#bgvid {
 }
 
 .white-div {
-  padding: 60px 10px 90px 30px;
-  color: #0277bf;
+  padding: 20px 0px 60px 0px;
+  color: #112E51;
 }
 
-.white-div h3 {
-  color: #0277bf;
+/*.white-div h3 {
+  color: #112E51;
   font-family: 'source_sans_probold';
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 5px;
-}
+  margin-bottom: 60px;
+}*/
 
 .white-div .col-md-4 {
   padding: 20px;
@@ -386,16 +322,25 @@ video#bgvid {
 .white-div p {
   font-size: 18px;
   color: #4A4A4A;
-  font-family: 'source_sans_proextralight';
+  font-family: 'Roboto', sans-serif;
 }
 
 .blue-div {
-  padding: 150px 0;
+  padding: 105px 0;
   text-align: center;
-  background-color: #0277bf;
+  background-color: #112E51;
   color: white;
-  font-size: 30px;
-  font-family: Merriweather, serif;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: .43px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+.blue-div p{
+  max-width: 737px;
+  text-align: center;
+  margin: auto;
 }
 
 .blue-div a {
@@ -403,12 +348,12 @@ video#bgvid {
 }
 
 .carousel-indicators li {
-  background-color: #0277bf;
+  background-color: #112E51;
   opacity: .5;
 }
 
 .carousel-indicators .active {
-  background-color: #0277bf;
+  background-color: #112E51;
   opacity: 1;
 }
 
@@ -418,7 +363,7 @@ video#bgvid {
 
 @media only screen and (max-width: 920px) {
   .navbar-header {
-    height: 80px;
+    height: 100px;
 
   }
 
@@ -433,11 +378,11 @@ video#bgvid {
   }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #0277bf;
+    background-color: #112E51;
   }
 
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #0277bf;
+    background-color: #112E51;
 
   }
   .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
@@ -450,7 +395,7 @@ video#bgvid {
 
   #titleCard > h1 {
     font-size:32px;
-    margin-top:-50px;
+    margin-top:0px;
   }
   #titleCard > h3 {
     color:white;
@@ -459,7 +404,7 @@ video#bgvid {
 
   .btn-cta {
     font-size: 1em;
-    color: #1279bc;
+    color: #112E51;
     opacity: .9;
     border: none;
     background: white;
@@ -470,14 +415,14 @@ video#bgvid {
 
   .btn-cta:hover {
     color: white;
-    background: #1279bc;
+    background: #112E51;
   }
 
   .btn-bta{
     font-size: 1em;
-    background: #1279bc;
+    background: #112E51;
     opacity: .9;
-    border: solid 1px #1279bc;
+    border: solid 1px #112E51;
     color: white;
     font-weight: bold;
     margin-top:30px;
@@ -487,14 +432,14 @@ video#bgvid {
 
   .btn-bta:hover {
     background: white;
-    color: #1279bc;
-    border: solid 1px #1279bc;
+    color: #112E51;
+    border: solid 1px #112E51;
   }
 
   .blue-div {
     padding: 20px 0;
     text-align: center;
-    background-color: #0277bf;
+    background-color: #112E51;
     color: white;
     font-size: 20px;
   }
@@ -508,8 +453,9 @@ video#bgvid {
   }
 
   .white-div h3 {
-    font-size: 24px;
-    margin: 50px 0;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 32px 0;
     text-transform: uppercase;
     letter-spacing: 5px;
   }
@@ -518,12 +464,13 @@ video#bgvid {
     padding: 20px 0;
   }
 
-  #titleCard > h1 {
+/*  #titleCard > h1 {
     padding-top: 10px;
-  }
+  }*/
 
   #learn > .container > .h1-merriweather {
     font-size:28px;
+    color: white;
   }
 
   .social-div {
@@ -540,12 +487,44 @@ video#bgvid {
 
 }
 
+#census101 #section-heading{
+  margin-bottom:60px;
+}
+
+#myCarousel .carousel-indicators{
+  bottom: -50px
+}
+
+#myCarousel .carousel-inner{
+  margin-bottom:50px;
+}
+
+#get-in-touch h3{
+  margin-bottom: 42px;
+}
+
 #icon-target{
   position: absolute;
   bottom: 120px;
   left: calc( 50vw - 10px );
   font-size:20px;
-  color:#0277bf;
+  color:#112E51;
+}
+
+footer #footer-icons{
+  max-width:300px;
+  padding-top: 30px;
+}
+
+footer #footer-links{
+  font-size:14px;
+  letter-spacing: .23px;
+  color:white;
+  font-weight:lighter;
+}
+
+footer #footer-links a{
+  padding: 0px 5px;
 }
 
 .animation-target {
@@ -553,6 +532,11 @@ video#bgvid {
   animation: animation 4500ms linear infinite both;
 }
 
+footer #footer-links a:hover{
+  opacity: .5;
+  color: white;
+  text-decoration: none;
+}
 /* Generated with Bounce.js. Edit at https://goo.gl/jA35rf */
 
 @-webkit-keyframes animation {

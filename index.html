@@ -11,6 +11,7 @@
 
 		<!-- Local CSS -->
 		<link rel="stylesheet" href="src/css/landing.css">
+		<link rel="stylesheet" href="src/css/custom.css">
 		<link rel="stylesheet" href="src/fonts/font-awesome/css/font-awesome.min.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -19,36 +20,66 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto+Condensed:700|Roboto:300" rel="stylesheet">
 	</head>
 
-	<body>
-		<nav class="navbar navbar-fixed-top navbar-default" role="navigation" style="margin-bottom:0;background-color:white">
-			<img class="img img-responsive hidden-xs" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="" style="width:300px;margin-left: calc( 50vw - 150px )">
+	<body id="about">
+	<!-- Navigation -->
+		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 		  <div class="container-fluid">
-		    <div class="navbar-header" style="">
-          <a class="navbar-brand hidden-md hidden-sm hidden-lg" href="#"><img class="img img-responsive" src="src/img/census-logo-white-bg2.jpg" alt="" style=""></a>
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
+		      <a href="https://www.census.gov/">
+		      	<img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
+		  	  </a>
 		    </div>
 
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="navbar" style="margin-bottom:10px">
-		      <ul class="nav navbar-nav">
-		        <li><a href="#learn">Census Partnerships</a></li>
-		        <li><a href="#partnerships">Why Partner</a></li>
-		        <li><a href="#involved">How to Partner</a></li>
-		        <li><a href="#contact">Contact</a></li>
-		      </ul>
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#"></a></li>
-		      </ul>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="index.html">About</a></li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partner <span class="caret"></span></a>
+						          <ul class="dropdown-menu" id="partner-dropdown">
+							            <li><a href="learn.html">Learn</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="act.html">Engage</a></li>
+						          </ul>
+					        </li>
+						<li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+						          <ul class="dropdown-menu">
+							            <li><a href="toolkits.html">Toolkits</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="workshops.html">Workshops</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="maps.html">Mapping Tools</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="https://www.census.gov/data/training-workshops.html" target="_blank">Training&nbsp;<i class="fa fas fa-external-link fa-stack-1x s-icon "></i></a> </li>
+						          </ul>
+					        </li>
+					    <li class="dropdown">
+					      <a href="2020.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">2020 <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+						            <li><a href="2020.html">2020 Census</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="Act-for-2020.html">Get Started</a></li>
+						      </ul>
+					  	</li>
+					 <a href="join.html">
+						 <button type="button" class="btn btn-default btn-bta" id="join-button">
+								Join
+						</button>
+					</a>
+			      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+
 
 		<div class="jumbotron bottom-shadow vertical-center">
 		  <video id="video-background" preload muted autoplay loop>
@@ -59,150 +90,100 @@
 					<h1 class="h1-merriweather">
 						Measuring America:
 						<br>
-						People, Places and Economy
+						People, Places, and the Economy
 					</h1>
 					<h3>
 						Partner with the U.S. Census Bureau to help America work better through data
+
 					</h3>
+				</div>
+
+				<div class="col-xs-12">
+					<a href="join.html">
+						<button type="button" class="btn btn-default btn-bta" id="join-us-button" style="margin-top: 40px;">
+							Join Us
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
 
 		<div id="icon-target">
-			<a href="#learn" style="color:white;">
+			<a href="#learn" id="animated-arrows">
 				<i class="animation-target fa  fa-angle-double-down fa-stack-2x"></i>
 			</a>
 		</div>
 
 		<div id="learn" class="white-div bottom-shadow">
 			<div class="container text-center">
-				<h3 class="h1">
-					Make the most of Census Bureau data
+				<h3 class="h1" id="section-heading">
+					Why Partner?
 				</h3>
-				<div class="col-xs-12" style="padding-top:50px">
-					<img class="img img-responsive" src="./src/img/sub-banner.png" alt="school icon">
+
+				<div class="col-md-6">
+					<img src="./src/img/CensusIllustration_Website-Participation.png" height="201" alt="lighbulb icon">
+					<h3>Increase participation</h3>
+					<p>Raise awareness to ensure that your constituents, customers and stakeholders are represented in vital U.S. Census Bureau <a href="https://www.census.gov/programs-surveys.html" target="_blank">household and business surveys</a>.</p>
 				</div>
-				<div class="col-xs-12 col-md-10 col-md-offset-1" style="padding-top:50px">
-					<p>
-						The Census Bureau is America's leading source of quality data about the nation's people, places, and economy. Whether you’re a business, school, nonprofit, or government, we’ll work with you to find new and innovative ways to partner.
-					</p>
+
+				<div class="col-md-6">
+					<img src="./src/img/CensusIllustration_Website_Lightbulb.png" height="201" alt="lighbulb icon">
+					<h3>Make the Census Bureau work for you and your community</h3>
+					<p>Learn how to use our many  <a href="https://www.census.gov/data/data-tools.html" target="_blank">data tools and products</a>, get advice from our data trainers, and contribute to new tools that improve business, policy and American lives.</p>
 				</div>
+
 			</div>
 		</div>
 
 		<div class="blue-div bottom-shadow">
 			<div class="container container-fluid">
 				<p>
-					From corporations to policymakers, foundations and nonprofits to developers — we work across sectors and industries.
+					From corporations to policymakers, foundations and nonprofits to software developers, we partner across sectors and industries.
 				</p>
 			</div>
 		</div>
 
 		<div id="partnerships" class="white-div bottom-shadow">
 			<div class="container container-fluid text-center">
-				<h3 style="margin-bottom:60px;">
-					Why partner?
-				</h3>
-				<div class="col-md-6">
-					<img class="img img-responsive" src="./src/img/drive.png" alt="school icon">
-					<h4>
-						Drive participation
-					</h4>
-					<p style="padding:0 20px">
-						Ensure your constituents, customers, and stakeholders are represented in vital Census Bureau household and business surveys.
-					</p>
-				</div>
-				<div class="col-md-6">
-					<img class="img img-responsive" src="./src/img/participate.png" alt="people icon">
-					<h4>
-						Make our data work for you
-					</h4>
-					<p style="padding:0 20px">
-						Create valuable new tools that improve business, policy, and American lives.
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="blue-div bottom-shadow">
-			<div class="container">
-				<p>
-					Partner-driven workshops help increase data use and awareness and strengthen participation in Census Bureau surveys and programs.
-				</p>
-			</div>
-		</div>
-
-		<div id="involved" class="white-div bottom-shadow">
-			<div class="container container-fluid text-center">
-				<h3>
-					How to get involved
+				<h3 id="section-heading">
+					How to Partner
 				</h3>
 				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/fig-pen.png" alt="pen icon">
-					<h4>
-						Host a workshop
-					</h4>
-					<p>
-						Inquire about joining or hosting workshops to forge cross-sector collaboration, identify solutions, and engage participants around the 2020 Decennial Census, American Community Survey, and 2018 Economic Census, among others.
-					</p>
+					<img src="./src/img/CensusIllustration_Website_JoinMailing.png" height="201" alt="lighbulb icon">
+					<h3>Join our mailing list</h3>
+					<p><a href="join.html">Sign up</a> here to get updates for supporting current Census Bureau efforts and programs.</p>
 				</div>
 
 				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/fig-light.png" alt="lighbulb icon">
-					<h4>
-						Share your ideas
-					</h4>
-					<p>
-						Help us make the Census Bureau work for you. Submit your ideas for hosting events, creating content, or bringing the Census to the people and people to the Census.
-					</p>
+					<img src="./src/img/CensusIllustration_Website_Ideation.png" height="201" alt="lighbulb icon">
+					<h3>Take action</h3>
+					<p>We have outlined <a href="act.html">a few simple ways</a>  you can start engaging with the Census Bureau, even if you only have five minutes.</p>
 				</div>
 
 				<div class="col-md-4">
-					<img class="img img-responsive" src="./src/img/fig-book.png" alt="textbook icon">
-					<h4>
-						Use our tools
-					</h4>
-					<p style="font-style:italic">
-						Coming Fall 2017!
-					</p>
-					<p>
-						We are assembling best practices and tools to help you increase participation in Census Bureau surveys.
-					</p>
+					<img src="./src/img/CensusIllustration_Website_Toolkit.png" height="201" alt="lighbulb icon">
+					<h3>Use our tools and resources</h3>
+					<p>We have <a href="toolkits.html">tools and best practices</a> to help you increase participation in Census Bureau surveys and to increase data awareness.</p>
 				</div>
-
-				<div class="col-xs-12">
-					<button type="button" class="btn btn-default btn-bta" onclick="location.href='mailto:census.partners@census.gov';">
-						Get in touch
-					</button>
-				</div>
-
 			</div>
 		</div>
 
-		<div id="contact" class="blue-div">
-			<div class="container container-fluid">
-				<p>
-					We’re counting on you!<br> Help build the partnership experience by sending feedback to <a style="word-wrap:break-word" href="mailto:census.partners@census.gov">census.partners@census.gov</a>.
-				</p>
-
-			</div>
-		</div>
-
-		<div id="studies" class="white-div">
+		
+		<div id="studies" class="white-div bottom-shadow navy-div">
 				<div class="container container-fluid text-center">
-					<h3>
-						Stats in action
+					<h3 id="section-heading">
+						Stats in Action 
 					</h3>
-					<p class="col-md-8 col-md-offset-2" style="margin-top:30px;margin-bottom:70px">
-						We can guide you to existing tools and services that meet your organization's mission, or cocreate new ones with you.
+					<p class="col-md-12">
+						See how people are using census data around the country.
 					</p>
 				</div>
 
-				<div class="container" style="">
+				<div class="container">
 
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
-					  <ol class="carousel-indicators" style="bottom: -50px">
+					  <ol class="carousel-indicators">
 					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					    <li data-target="#myCarousel" data-slide-to="1"></li>
 					    <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -211,7 +192,7 @@
 					  </ol>
 
 					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner" style="margin-bottom:50px;">
+					  <div class="carousel-inner">
 					    <div class="item active">
 								<iframe width="100%" height="450" src="https://www.youtube.com/embed/4VJ-pfm3nrE" frameborder="0" allowfullscreen></iframe>
 					    </div>
@@ -233,10 +214,32 @@
 
 			</div>
 
-		<footer>
-			<div class="container container-fluid" style="max-width:400px">
 
-					<div class="text-center" style="padding:30px 50px">
+			<div id="get-in-touch" class="white-div bottom-shadow">
+			<div class="container container-fluid">
+				<h3 id="section-heading"> 
+					Get In Touch
+				</h3>
+				<h3 id="counting-on-you">We are counting on you!</h3>
+				<p>Help us build the partnership experience by <a href="join.html">sharing your interests</a><br> or sending feedback to <a href="mailto:census.partners@census.gov">census.partners@census.gov</a>.</p>
+
+			</div>
+		</div>
+
+		<div id="next-learn" class="grey-div bottom-shadow text-center">
+			<div class="container container-fluid">
+				<h3> 
+					Next: <a href="learn.html" style="text-decoration: underline">Learn</a>
+				</h3>
+				<p>Only got a second? <br> Support a complete and accurate count by <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.census.gov/partners/"><u>sharing this website.</u></a></p>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="container container-fluid" id="footer-icons">
+
+					<div class="text-center">
 
 						<div class="col-xs-4 text-center social-div" >
 							<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
@@ -270,7 +273,7 @@
 				</div>
 			</div>
 
-			<div class="container text-center" style="font-size:20px;color:white;font-weight:lighter">
+			<div class="container text-center" id="footer-links">
           <a href="https://www.census.gov/about/policies/privacy/privacy-policy.html#par_textimage_1" title="Accessibility">
 						Accessibility
 					</a>
@@ -326,17 +329,6 @@
 		      }
 		    }
 		  });
-
-			window.onscroll = function() {
-				// might have an ie issue -- double check
-				var y = window.pageYOffset;
-				if (y>250) {
-					$("#main-logo").css({"margin-top":"-150px"})
-				}
-				if (y==0) {
-					$("#main-logo").css({"margin-top":"0px"})
-				}
-			}
 
 		</script>
 	</body>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Census Partnerships</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="src/css/bootstrap.min.css">
+
+		<!-- Local CSS -->
+		<link rel="stylesheet" href="src/css/landing.css">
+		<link rel="stylesheet" href="src/css/custom.css">
+		<link rel="stylesheet" href="src/fonts/font-awesome/css/font-awesome.min.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+	</head>
+
+	<body id="join">
+		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a href="https://www.census.gov/">
+		      	<img class="img img-responsive" id="main-logo" src="src/img/census-logo-white-bg2.jpg" alt="">
+		  	  </a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="index.html">About</a></li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partner <span class="caret"></span></a>
+						          <ul class="dropdown-menu" id="partner-dropdown">
+							            <li><a href="learn.html">Learn</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="act.html">Engage</a></li>
+						          </ul>
+					        </li>
+						<li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+						          <ul class="dropdown-menu">
+							            <li><a href="toolkits.html">Toolkits</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="workshops.html">Workshops</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="maps.html">Mapping Tools</a></li>
+							            <li role="separator" class="divider"></li>
+							            <li><a href="https://www.census.gov/data/training-workshops.html" target="_blank">Training&nbsp;<i class="fa fas fa-external-link fa-stack-1x s-icon "></i></a> </li>
+						          </ul>
+					        </li>
+					    <li class="dropdown">
+					      <a href="2020.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">2020 <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+						            <li><a href="2020.html">2020 Census</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="Act-for-2020.html">Get Started</a></li>
+						      </ul>
+					  	</li>
+					 <a href="join.html">
+						 <button type="button" class="btn btn-default btn-bta" id="join-button">
+								Join
+						</button>
+					</a>
+			      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="blue-header-div bottom-shadow">
+			<div class="container">
+					<h1>
+						Join
+					</h1>
+					<h3>
+						Sign up here to stay up to date with new resources and opportunities to partner with the U.S. Census Bureau.
+					</h3>
+			</div>
+		</div>
+
+
+		<div id="sign-up" class="white-div bottom-shadow">
+			<div class="container container-fluid">
+				<h3 id="section-heading">
+					Sign Up
+				</h3>
+					<div class="narrow" style="margin-bottom: 40px">
+						<p>Thank you for your interest in collaborating with the Census Bureau! By signing up, you are showing your interest in partnership opportunities as we get closer to 2020. 
+						<br><br>
+						Tell us a little more about yourself or your organization to help us learn what your needs are as we develop these opportunities. All of your information is strictly confidential.</p>
+					</div>
+			<div id="submission-confirmation">
+				<div style="font-size:2.5em; color:black; padding: 7px">
+					<img src="src/img/check.png">
+				</div>
+				<h6> Submission Succcess </h6>
+				<p> Thank you for submitting your interest! </p>
+			</div>
+			<form method="get" id="the_form" accept-charset="utf-8">
+					<div class="col-md-6">
+
+			    	<label for="q_70676">First name*</label>
+    				<input class="form-control" type="text" name="q_70676" id="q_70676" required>
+
+    				<label for="q_70697">Job title*</label>
+    				<input class="form-control" type="text" name="q_70697" id="q_70697" required>
+
+    				<label for="e">Work Email Address*</label>
+    				<input class="form-control" type="email" name="e" id="e" required>
+
+    				<label for="q_70678">Zip Code*</label>
+    				<input class="form-control" type="text" pattern="[0-9]{5}" name="q_70678" id="q_70678" title="Five Digit Zip Code" required>
+				</div>
+
+				<div class="col-md-6 right">
+	    			<label for="q_70677">Organization Name*</label>
+    				<input class="form-control" type="text" name="q_70677" id="q_70677" required>
+
+			    	<label for="q_70698">Reach</label>
+			    	<select class="form-control" type="text" name="q_70698" id="q_70698">
+			    		<option value="" disabled selected>Select Reach</option>
+			      		<option value="211147">National</option>
+			     		<option value="211148">Regional</option>
+			      		<option value="211149">Local</option>
+			    	</select>
+
+			    	<label for="q_70679">Group/Organization Type</label>
+			    	<select class="form-control" type="text" name="q_70679" id="q_70679">
+			      		<option value="" disabled selected>Select group/organization name</option>
+			      		<option value="211136">Corporation or Business</option>
+				      	<option value="211137">Nonprofit organization</option>
+				      	<option value="211138">Community Based Organization</option>
+				      	<option value="211139">Faith Based Organization</option>
+				      	<option value="211140"> Tribal Government or Organization</option>
+				      	<option value="211079">Foundation</option>
+				      	<option value="211141">Educational Institution</option>
+				      	<option value="211080">Individual</option>
+				      	<option value="211081">Other</option>
+			    	</select>
+
+			    	<label for="q_70680">Interested in</label>
+			    	<select class="form-control" type="text" name="q_70680" id="q_70680">
+			    		<option value="" disabled selected>Select Interested In</option>
+			    		<option value="211142">2020 Census</option>
+			      		<option value="211082">Data or Data Tools and Products</option>
+			      		<option value="211143">Hosting or Facilitating a Workshop</option>
+			      		<option value="211144">Developer or Tech Community</option>
+			      		<option value="211145">Other Economic or Demographic Programs</option>
+			      		<option value="211146">General Inquiry</option>
+			    	</select>
+					</div>
+				<div class="col-md-6">
+					<div id="privacy-act-statement">
+						<small style="font-weight:bold; color: #112E51"> PRIVACY ACT STATEMENT </small><br>
+						<small> The collection of your personal information for the U.S. Census Bureau partner website is
+						authorized under 5 U.S.C. 301 and 44 U.S.C. Section 3101.
+						The purpose of collecting this information is to provide stakeholders with email updates,
+						resources, U.S. Census Bureau information and to establish an avenue for collaboration between
+						the U.S. Census Bureau and interested stakeholder organizations and/or partners. Personally
+						identifiable information such as name, organization name, job title, work email address, and zip
+						code may be collected. </small>
+						<small> Disclosure of this information is permitted under the Privacy Act of 1974 (5 U.S.C. Section
+						552a) to be shared among Census Bureau staff for work-related purposes. Disclosure of this
+						information is also subject to all of the published routine uses as identified in the Privacy Act
+						System of Records Notice COMMERCE/DEPT-19, Department Mailing Lists.
+						Providing this information is voluntary and you may be removed from the Partnership email
+						sign-up at any time. Failure to provide this information may affect the U.S. Census Bureau’s
+						ability to disseminate information to stakeholder organizations including information about the
+						2020 Census, information about other programs and surveys, data products and data tools, and
+						other resources. </small>
+					</div>
+</div>
+				<div class="col-md-6 right">
+					<button type="submit" value="Submit" class="btn btn-default btn-primary btn-bta" id="explore-button submit">submit</button>
+					<br>
+					<small>Please ensure you have not entered personal information such as a Social Security Number, home address, or date of birth, etc. By submitting my response, I agree to receive occasional emails from the Census Bureau per the terms of the Data Protection and Privacy Policy. </small>
+				</div>
+			</form>
+		</div>
+	</div>
+			
+			
+		</div>
+
+
+		<div id="next-toolkits" class="grey-div bottom-shadow text-center">
+			<div class="container container-fluid">
+				<h3> 
+					Next: <a href="toolkits.html" style="text-decoration: underline">Toolkit</a>
+				</h3>
+				<p>Only got a second? <br> Support a complete and accurate count by <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.census.gov/partners/"><u>sharing this website.</u></a></p>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="container container-fluid" id="footer-icons">
+
+					<div class="text-center">
+
+						<div class="col-xs-4 text-center social-div" >
+							<a class="" href="https://www.facebook.com/uscensusbureau/" target="_blank">
+								<span class="fa-stack social">
+								  <i class="fa fa-circle fa-stack-2x b-icon"></i>
+								  <i class="fa fa-facebook fa-stack-1x s-icon"></i>
+								</span>
+							</a>
+						</div>
+
+						<div class="col-xs-4 text-center social-div" >
+							<a class="" href="https://twitter.com/uscensusbureau" target="_blank">
+								<span class="fa-stack social">
+								  <i class="fa fa-circle fa-stack-2x b-icon"></i>
+								  <i class="fa fa-twitter fa-stack-1x s-icon"></i>
+								</span>
+							</a>
+						</div>
+
+						<div class="col-xs-4 text-center social-div" >
+							<a class="" href="mailto:census.partners@census.gov" target="_blank">
+								<span class="fa-stack social">
+								  <i class="fa fa-circle fa-stack-2x b-icon"></i>
+								  <i class="fa fa-envelope fa-stack-1x s-icon"></i>
+								</span>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="container text-center" id="footer-links">
+          <a href="https://www.census.gov/about/policies/privacy/privacy-policy.html#par_textimage_1" title="Accessibility">
+						Accessibility
+					</a>
+          <span>|</span>
+          <a href="https://www.census.gov/quality/" title="Information Quality">
+						Information Quality
+					</a>
+          <span>|</span>
+          <a href="https://www.census.gov/foia/" title="FOIA">
+						FOIA
+					</a>
+          <span>|</span>
+          <a href="https://www.census.gov/privacy/" title="Data Protection and Privacy Policy">
+						Data Protection and Privacy Policy
+					</a>
+          <span>|</span>
+          <a href="https://www.commerce.gov/" title="U.S. Department of Commerce">
+						U.S. Department of Commerce
+					</a>
+      </div>
+		</footer>
+
+		<!-- jQuery -->
+		<script src="./src/js/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="./src/js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script type="text/javascript">
+		// Select all links with hashes
+		$('a[href*="#"]')
+		  // Remove links that don't actually link to anything
+		  .not('[href="#"]')
+		  .not('[href="#0"]')
+		  .click(function(event) {
+		    // On-page links
+		    if (
+		      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+		      &&
+		      location.hostname == this.hostname
+		    ) {
+		      // Figure out element to scroll to
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		      // Does a scroll target exist?
+		      if (target.length) {
+		        // Only prevent default if animation is actually gonna happen
+		        event.preventDefault();
+		        $('html, body').animate({
+		          scrollTop: target.offset().top - 50
+		        }, 1000, function() {
+							// animation placeholder
+		        });
+		      }
+		    }
+		  });
+		</script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    		<script src="json2.js"></script>
+    		<script src="script_api_script.js"></script>
+            <div id='response' class='hidden'></div>
+
+	</body>
+</html>
